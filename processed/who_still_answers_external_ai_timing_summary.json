@@ -1,0 +1,77 @@
+{
+  "external_ai_timing_promoted": [
+    {
+      "family": "external_timing",
+      "outcome": "first_positive_answer_latency_mean",
+      "promoted": 1,
+      "coef": 23.994176246599814,
+      "cluster_se": 8.155361820345332,
+      "cluster_pval": 0.0032595768970042098,
+      "permutation_coef": 23.994176246600695,
+      "permutation_pval": 0.013797240551889621,
+      "nobs": 1143,
+      "n_tags": 16,
+      "n_months": 72
+    },
+    {
+      "family": "external_timing",
+      "outcome": "recent_gap_first_vs_accepted",
+      "promoted": 1,
+      "coef": 0.0036453543879026106,
+      "cluster_se": 0.001456272963915225,
+      "cluster_pval": 0.01230731295878104,
+      "permutation_coef": 0.0036453543879026353,
+      "permutation_pval": 0.033593281343731254,
+      "nobs": 1139,
+      "n_tags": 16,
+      "n_months": 72
+    },
+    {
+      "family": "external_timing",
+      "outcome": "accepted_cond_any_answer_30d_rate",
+      "promoted": 1,
+      "coef": -0.003177015682481879,
+      "cluster_se": 0.001570639689927761,
+      "cluster_pval": 0.04309864993946333,
+      "permutation_coef": -0.003177015682481642,
+      "permutation_pval": 0.08558288342331534,
+      "nobs": 1138,
+      "n_tags": 16,
+      "n_months": 72
+    }
+  ],
+  "exposure_validation": {
+    "api_calls": 2304,
+    "audited_cumulative_calls": 2305,
+    "n_labeled_questions": 2048,
+    "cv_r2": 0.3778733950669235,
+    "cv_corr": 0.6166269053671621,
+    "corr_with_legacy_exposure_index": 0.5097282726986139,
+    "top_quintile_validation": {
+      "first_answer_1d": {
+        "outcome": "first_answer_1d",
+        "coef_post_x_top_quintile": 0.019670445756333206,
+        "p_post_x_top_quintile": 0.0024048406139830117,
+        "n_cells": 5730
+      },
+      "first_answer_7d": {
+        "outcome": "first_answer_7d",
+        "coef_post_x_top_quintile": 0.017861204680188262,
+        "p_post_x_top_quintile": 0.0004579654376814836,
+        "n_cells": 5730
+      },
+      "accepted_30d": {
+        "outcome": "accepted_30d",
+        "coef_post_x_top_quintile": 0.023485281693972616,
+        "p_post_x_top_quintile": 1.4110752549705006e-20,
+        "n_cells": 5730
+      },
+      "predicted_exposure_score": {
+        "outcome": "predicted_exposure_score",
+        "coef_post_x_high_tag": -0.027366631268027367,
+        "p_post_x_high_tag": 4.085426628325776e-14,
+        "n_cells": 1163
+      }
+    }
+  }
+}

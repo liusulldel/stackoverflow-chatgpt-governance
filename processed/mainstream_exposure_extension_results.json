@@ -1,0 +1,85 @@
+{
+  "results": {
+    "accepted_rate_continuous_primary": {
+      "coef": 0.005377513952077553,
+      "se": 0.0023781446395511607,
+      "pval": 0.02374548809706934,
+      "nobs": 240.0,
+      "r2": 0.977162932892293
+    },
+    "mean_log_answers_continuous_primary": {
+      "coef": 0.014775699770829015,
+      "se": 0.004391226216723568,
+      "pval": 0.0007659272598978863,
+      "nobs": 240.0,
+      "r2": 0.9798338451857234
+    },
+    "accepted_rate_continuous_fractional": {
+      "coef": 0.004389301631574628,
+      "se": 0.001875243598747808,
+      "pval": 0.01924985464724357,
+      "nobs": 240.0,
+      "r2": 0.9831357940773374
+    },
+    "mean_log_answers_continuous_fractional": {
+      "coef": 0.011862933318486348,
+      "se": 0.003979349014341412,
+      "pval": 0.0028719236844370415,
+      "nobs": 240.0,
+      "r2": 0.9815314789694352
+    }
+  },
+  "wild_cluster_bootstrap": [
+    {
+      "specification": "accepted_rate_continuous_primary",
+      "coef": 0.005377513952077553,
+      "cluster_pval": 0.02374548809706934,
+      "wild_cluster_pval": 0.01001001001001001,
+      "successful_draws": 999
+    },
+    {
+      "specification": "accepted_rate_continuous_fractional",
+      "coef": 0.004389301631574628,
+      "cluster_pval": 0.01924985464724357,
+      "wild_cluster_pval": 0.013013013013013013,
+      "successful_draws": 999
+    }
+  ],
+  "diagnostics": {
+    "orientation_correlation_with_routine_share": 0.16657467709816026,
+    "top_positive_terms": [
+      "docker nginx",
+      "use docker",
+      "connect docker",
+      "map string",
+      "firestore collection",
+      "gitlab runner",
+      "server docker",
+      "app docker",
+      "flutterfire",
+      "firebase admin",
+      "compose docker",
+      "docker windows",
+      "serve",
+      "firebase analytics",
+      "stage"
+    ],
+    "top_negative_terms": [
+      "using",
+      "python",
+      "file",
+      "error",
+      "linux",
+      "data",
+      "memory",
+      "function",
+      "value",
+      "bash",
+      "array",
+      "sql",
+      "column",
+      "android",
+      "use"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+delta_outcome,coef_on_exposure,pval,n_tags
+brand_new_platform_share_delta,0.0264741440952153,0.03823486130838511,16
+low_tenure_existing_share_delta,-0.024199101114393017,0.013995253191898727,16
+established_cross_tag_share_delta,-0.0022750429808223206,0.6469914779352777,16

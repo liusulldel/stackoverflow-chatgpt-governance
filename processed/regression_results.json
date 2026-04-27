@@ -1,0 +1,372 @@
+{
+  "panel_baseline_accepted_rate": {
+    "coef": 0.01890218119979478,
+    "se": 0.012207770556278176,
+    "pval": 0.1215325400077694,
+    "nobs": 192.0,
+    "r2": 0.6981283543825353
+  },
+  "panel_baseline_answered_share": {
+    "coef": 0.05075333607316092,
+    "se": 0.022217240880907048,
+    "pval": 0.022347317364937593,
+    "nobs": 192.0,
+    "r2": 0.6744168922800298
+  },
+  "panel_baseline_novice_share": {
+    "coef": -0.02918853261830698,
+    "se": 0.02139521200311135,
+    "pval": 0.17248721066741002,
+    "nobs": 192.0,
+    "r2": 0.6854393905910348
+  },
+  "panel_baseline_mean_log_answers": {
+    "coef": 0.0467061426130286,
+    "se": 0.023015035619813558,
+    "pval": 0.042420088683452845,
+    "nobs": 192.0,
+    "r2": 0.7482035509080784
+  },
+  "panel_baseline_mean_log_views": {
+    "coef": 0.010699476167544804,
+    "se": 0.05952881039294983,
+    "pval": 0.8573597518944072,
+    "nobs": 192.0,
+    "r2": 0.9410309510732725
+  },
+  "panel_baseline_mean_score": {
+    "coef": 0.22299044590947426,
+    "se": 0.06259841452731844,
+    "pval": 0.00036770691535847606,
+    "nobs": 192.0,
+    "r2": 0.6369503438801928
+  },
+  "panel_baseline_log_questions": {
+    "coef": -0.3192618342403499,
+    "se": 0.11795314212201648,
+    "pval": 0.006795899448402371,
+    "nobs": 192.0,
+    "r2": 0.8983490349511519
+  },
+  "panel_segmented_mean_log_views": {
+    "level_break": {
+      "coef": -0.19146007887464772,
+      "se": 0.09655047526716352,
+      "pval": 0.04736686679751643,
+      "nobs": 192.0,
+      "r2": 0.9463341365687363
+    },
+    "post_slope": {
+      "coef": 0.02973392585159617,
+      "se": 0.007878053738636407,
+      "pval": 0.00016047492640673732,
+      "nobs": 192.0,
+      "r2": 0.9463341365687363
+    },
+    "pretrend_slope": {
+      "coef": 0.0014365632944881698,
+      "se": 0.008293214660555952,
+      "pval": 0.8624773045236324,
+      "nobs": 192.0,
+      "r2": 0.9463341365687363
+    }
+  },
+  "panel_segmented_log_questions": {
+    "level_break": {
+      "coef": -0.09365567053613194,
+      "se": 0.17015500890947405,
+      "pval": 0.5820355634073051,
+      "nobs": 192.0,
+      "r2": 0.9081308171303186
+    },
+    "post_slope": {
+      "coef": -0.049470933073895725,
+      "se": 0.009840103499650745,
+      "pval": 4.969647896237502e-07,
+      "nobs": 192.0,
+      "r2": 0.9081308171303186
+    },
+    "pretrend_slope": {
+      "coef": 0.0072974874627379435,
+      "se": 0.016343038560351447,
+      "pval": 0.6552219391713408,
+      "nobs": 192.0,
+      "r2": 0.9081308171303186
+    }
+  },
+  "question_baseline_accepted": {
+    "coef": 0.015121944389224679,
+    "se": 0.014552029334522048,
+    "pval": 0.29872848998350343,
+    "nobs": 18936.0,
+    "r2": 0.06304665754924266
+  },
+  "question_baseline_answered": {
+    "coef": 0.04694960837103866,
+    "se": 0.01470290108927862,
+    "pval": 0.001406953608950841,
+    "nobs": 18936.0,
+    "r2": 0.06573862249565576
+  },
+  "question_baseline_log_answers": {
+    "coef": 0.04511431549033026,
+    "se": 0.012326975360835922,
+    "pval": 0.00025240809768441516,
+    "nobs": 18936.0,
+    "r2": 0.04327657043901534
+  },
+  "question_baseline_log_views": {
+    "coef": 0.005021665279893783,
+    "se": 0.03833168520081327,
+    "pval": 0.8957708802934922,
+    "nobs": 18936.0,
+    "r2": 0.1497215684050034
+  },
+  "question_baseline_novice_owner": {
+    "coef": -0.029188532618310795,
+    "se": 0.01387082730428572,
+    "pval": 0.03535133881921937,
+    "nobs": 18936.0,
+    "r2": 0.02531682103516064
+  },
+  "question_baseline_score": {
+    "coef": 0.2096760888248645,
+    "se": 0.08040578349217378,
+    "pval": 0.00911464213898572,
+    "nobs": 18936.0,
+    "r2": 0.040455343353320794
+  },
+  "question_segmented_log_views": {
+    "level_break": {
+      "coef": -0.19272268606385268,
+      "se": 0.07430517330556392,
+      "pval": 0.009495911548241913,
+      "nobs": 18936.0,
+      "r2": 0.150415657760675
+    },
+    "post_slope": {
+      "coef": 0.026796034736289942,
+      "se": 0.011100821390410763,
+      "pval": 0.015783722143648787,
+      "nobs": 18936.0,
+      "r2": 0.150415657760675
+    },
+    "pretrend_slope": {
+      "coef": 0.002657250680275264,
+      "se": 0.00846684637501136,
+      "pval": 0.7536411618060985,
+      "nobs": 18936.0,
+      "r2": 0.150415657760675
+    }
+  },
+  "policy_accepted_rate": {
+    "coef": -0.06631277269674107,
+    "se": 0.04844983367231105,
+    "pval": 0.1710963921188703,
+    "nobs": 16.0,
+    "r2": 0.9044087162685962
+  },
+  "event_study_tests": {
+    "mean_log_views": {
+      "pre_joint_pval": 0.1607429450258956,
+      "post_joint_pval": 3.8745802972830414e-10
+    },
+    "log_questions": {
+      "pre_joint_pval": 0.02158961342026291,
+      "post_joint_pval": 0.00022634774978264605
+    }
+  },
+  "placebo_break_tests": [
+    {
+      "outcome": "mean_log_views",
+      "shock_month": "2022-07",
+      "level_coef": 0.023215015688848692,
+      "level_se": 0.08973356748235993,
+      "level_pval": 0.795858621114034,
+      "slope_coef": 0.03770148043641604,
+      "slope_se": 0.01995373013593618,
+      "slope_pval": 0.058832193726946515
+    },
+    {
+      "outcome": "log_questions",
+      "shock_month": "2022-07",
+      "level_coef": 0.10847969051439732,
+      "level_se": 0.1037199768913482,
+      "level_pval": 0.29561180454543146,
+      "slope_coef": -0.05283649654872841,
+      "slope_se": 0.03692064960758086,
+      "slope_pval": 0.1524065643127095
+    },
+    {
+      "outcome": "mean_log_views",
+      "shock_month": "2022-09",
+      "level_coef": -0.14306530623564134,
+      "level_se": 0.06425819812659056,
+      "level_pval": 0.025986511170108344,
+      "slope_coef": 0.016912222556850546,
+      "slope_se": 0.012619028843868898,
+      "slope_pval": 0.1801751777754972
+    },
+    {
+      "outcome": "log_questions",
+      "shock_month": "2022-09",
+      "level_coef": 0.04989964580794791,
+      "level_se": 0.1353262910060422,
+      "level_pval": 0.7123246746933256,
+      "slope_coef": -0.054107184978033324,
+      "slope_se": 0.02131935979396175,
+      "slope_pval": 0.011150816115350883
+    },
+    {
+      "outcome": "mean_log_views",
+      "shock_month": "2022-12",
+      "level_coef": -0.19146007887464772,
+      "level_se": 0.09655047526716352,
+      "level_pval": 0.04736686679751643,
+      "slope_coef": 0.02973392585159617,
+      "slope_se": 0.007878053738636407,
+      "slope_pval": 0.00016047492640673732
+    },
+    {
+      "outcome": "log_questions",
+      "shock_month": "2022-12",
+      "level_coef": -0.09365567053613194,
+      "level_se": 0.17015500890947405,
+      "level_pval": 0.5820355634073051,
+      "slope_coef": -0.049470933073895725,
+      "slope_se": 0.009840103499650745,
+      "slope_pval": 4.969647896237502e-07
+    }
+  ],
+  "leave_one_out": [
+    {
+      "omitted_tag": "bash",
+      "log_questions_coef": -0.26156568414833026,
+      "log_questions_pval": 0.018659042394038438,
+      "view_level_coef": -0.1934363063379634,
+      "view_level_pval": 0.06717323745088097
+    },
+    {
+      "omitted_tag": "docker",
+      "log_questions_coef": -0.24593326472975513,
+      "log_questions_pval": 0.06762163950869492,
+      "view_level_coef": -0.21423068622070066,
+      "view_level_pval": 0.09951590301620945
+    },
+    {
+      "omitted_tag": "excel-formula",
+      "log_questions_coef": -0.3506283624110292,
+      "log_questions_pval": 0.002851336535039476,
+      "view_level_coef": -0.21155012611069723,
+      "view_level_pval": 0.027850295857201723
+    },
+    {
+      "omitted_tag": "kubernetes",
+      "log_questions_coef": -0.2891293927702743,
+      "log_questions_pval": 0.08600314749322972,
+      "view_level_coef": -0.09735200383510281,
+      "view_level_pval": 0.06317325208651209
+    },
+    {
+      "omitted_tag": "memory-management",
+      "log_questions_coef": -0.3194539731421363,
+      "log_questions_pval": 0.010264908170465542,
+      "view_level_coef": -0.20160358883448237,
+      "view_level_pval": 0.04660236243396394
+    },
+    {
+      "omitted_tag": "multithreading",
+      "log_questions_coef": -0.4135406691972551,
+      "log_questions_pval": 4.601295905319173e-08,
+      "view_level_coef": -0.24279482199077185,
+      "view_level_pval": 0.01913160178240625
+    },
+    {
+      "omitted_tag": "numpy",
+      "log_questions_coef": -0.3114308914944266,
+      "log_questions_pval": 0.02175503543049382,
+      "view_level_coef": -0.20154316981638434,
+      "view_level_pval": 0.055367216313204626
+    },
+    {
+      "omitted_tag": "powershell",
+      "log_questions_coef": -0.3437740731113358,
+      "log_questions_pval": 0.008331552344244712,
+      "view_level_coef": -0.14821246136672278,
+      "view_level_pval": 0.12528648674824056
+    }
+  ],
+  "randomization_benchmark": [
+    {
+      "specification": "panel_baseline_log_questions",
+      "observed_coef": -0.3192618342403499,
+      "abs_randomization_pval": 0.07142857142857142,
+      "one_sided_randomization_pval": 0.04285714285714286,
+      "num_assignments": 70
+    },
+    {
+      "specification": "panel_segmented_mean_log_views_level_break",
+      "observed_coef": -0.19146007887464772,
+      "abs_randomization_pval": 0.11428571428571428,
+      "one_sided_randomization_pval": 0.05714285714285714,
+      "num_assignments": 70
+    }
+  ],
+  "wild_cluster_bootstrap": [
+    {
+      "specification": "panel_segmented_mean_log_views_level_break",
+      "term": "high_tag:post_chatgpt",
+      "coef": -0.19146007887464772,
+      "cluster_se": 0.09655047526716352,
+      "cluster_pval": 0.04736686679751643,
+      "wild_cluster_pval": 0.07107107107107107,
+      "observed_t": -1.983005037985169,
+      "successful_draws": 999,
+      "reps_requested": 999
+    },
+    {
+      "specification": "panel_segmented_mean_log_views_post_slope",
+      "term": "high_tag:time_post",
+      "coef": 0.02973392585159617,
+      "cluster_se": 0.007878053738636407,
+      "cluster_pval": 0.00016047492640673732,
+      "wild_cluster_pval": 0.026026026026026026,
+      "observed_t": 3.774273042308892,
+      "successful_draws": 999,
+      "reps_requested": 999
+    },
+    {
+      "specification": "panel_baseline_log_questions",
+      "term": "high_post",
+      "coef": -0.3192618342403499,
+      "cluster_se": 0.11795314212201648,
+      "cluster_pval": 0.006795899448402371,
+      "wild_cluster_pval": 0.06606606606606606,
+      "observed_t": -2.706683590591337,
+      "successful_draws": 999,
+      "reps_requested": 999
+    },
+    {
+      "specification": "panel_segmented_log_questions_post_slope",
+      "term": "high_tag:time_post",
+      "coef": -0.049470933073895725,
+      "cluster_se": 0.009840103499650745,
+      "cluster_pval": 4.969647896237502e-07,
+      "wild_cluster_pval": 0.016016016016016016,
+      "observed_t": -5.027480968635299,
+      "successful_draws": 999,
+      "reps_requested": 999
+    },
+    {
+      "specification": "policy_accepted_rate",
+      "term": "high_post_policy",
+      "coef": -0.06631277269674107,
+      "cluster_se": 0.04844983367231105,
+      "cluster_pval": 0.1710963921188703,
+      "wild_cluster_pval": 0.2782782782782783,
+      "observed_t": -1.3686893776611382,
+      "successful_draws": 999,
+      "reps_requested": 999
+    }
+  ]
+}

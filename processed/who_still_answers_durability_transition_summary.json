@@ -1,0 +1,63 @@
+{
+  "window_days": 365,
+  "target_roles": [
+    "first_positive",
+    "top_score",
+    "accepted_current"
+  ],
+  "n_entrants": 653492,
+  "n_eligible_365d": 638048,
+  "n_role_rows_target": 3430689,
+  "mean_rates_eligible_365d": {
+    "transition_accepted_current_365d": 0.35494978434224383,
+    "transition_any_cert_role_365d": 0.7424817568584182,
+    "transition_first_positive_365d": 0.39592005617132253,
+    "transition_top_score_365d": 0.6968629319424244
+  },
+  "results": [
+    {
+      "outcome": "transition_accepted_current_365d",
+      "coef": -0.0022316275836783213,
+      "se": 0.005200131750161609,
+      "pval": 0.6678153206537258,
+      "ci_low": -0.012423885813995075,
+      "ci_high": 0.007960630646638434,
+      "n_cells": 975,
+      "mean_rate": 0.3290743416425136,
+      "mean_n_eligible": 654.4082051282052
+    },
+    {
+      "outcome": "transition_any_cert_role_365d",
+      "coef": 0.018608646311973866,
+      "se": 0.004109824979533366,
+      "pval": 5.958854982612721e-06,
+      "ci_low": 0.01055338935208847,
+      "ci_high": 0.026663903271859263,
+      "n_cells": 975,
+      "mean_rate": 0.7297930996302368,
+      "mean_n_eligible": 654.4082051282052
+    },
+    {
+      "outcome": "transition_first_positive_365d",
+      "coef": 0.01762090801039125,
+      "se": 0.008085550199834427,
+      "pval": 0.029308760661213625,
+      "ci_low": 0.0017732296187157742,
+      "ci_high": 0.03346858640206673,
+      "n_cells": 975,
+      "mean_rate": 0.38111282878934416,
+      "mean_n_eligible": 654.4082051282052
+    },
+    {
+      "outcome": "transition_top_score_365d",
+      "coef": 0.015319768318503136,
+      "se": 0.003991693481547326,
+      "pval": 0.00012408493078279242,
+      "ci_low": 0.007496049094670379,
+      "ci_high": 0.023143487542335896,
+      "n_cells": 975,
+      "mean_rate": 0.681115761979027,
+      "mean_n_eligible": 654.4082051282052
+    }
+  ]
+}

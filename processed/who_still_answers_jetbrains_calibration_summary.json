@@ -1,0 +1,13 @@
+{
+  "source_csv": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\raw\\external_validation\\jetbrains_deveco_2025\\Developer Ecosystem Survey 2025_ Raw Data Sharing 2\\developer_ecosystem_2025_external.csv",
+  "source_questions_csv": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\raw\\external_validation\\jetbrains_deveco_2025\\Developer Ecosystem Survey 2025_ Raw Data Sharing 2\\developer_ecosystem_2025_external_questions.csv",
+  "n_rows": 24534,
+  "clusters": [
+    "SQL / analytics",
+    "Python / data",
+    "JavaScript / web",
+    "Android / mobile",
+    "Shell / infra / cloud"
+  ],
+  "mean_private_public_gap": 0.07703686013796834
+}

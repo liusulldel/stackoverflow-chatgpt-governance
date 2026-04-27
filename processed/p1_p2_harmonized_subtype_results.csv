@@ -1,0 +1,7 @@
+family,outcome,term,coef,se,pval,nobs,weight_col,formula
+binary,brand_new_platform_share,high_post,0.030050089450070698,0.008853585715612825,0.0006885073473170905,1145,n_new_answerers_profiles,brand_new_platform_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+binary,low_tenure_existing_share,high_post,-0.06276576895500968,0.009360015872429938,2.003976102051172e-11,1145,n_new_answerers_profiles,low_tenure_existing_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+binary,established_cross_tag_share,high_post,0.03271567950493571,0.008463096350477246,0.0001107770419730003,1145,n_new_answerers_profiles,established_cross_tag_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+continuous,brand_new_platform_share,exposure_post,0.021187962272180824,0.0036255178430670996,5.092523044396937e-09,1145,n_new_answerers_profiles,brand_new_platform_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+continuous,low_tenure_existing_share,exposure_post,-0.03441061085818936,0.004566992491866063,4.8971137007224397e-14,1145,n_new_answerers_profiles,low_tenure_existing_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+continuous,established_cross_tag_share,exposure_post,0.013222648586007342,0.004968137114563623,0.0077795589549272855,1145,n_new_answerers_profiles,established_cross_tag_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)

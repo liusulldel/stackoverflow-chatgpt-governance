@@ -1,0 +1,62 @@
+# Stack Overflow raw archival dumps — redistributable only via archive.org
+raw/
+*.parquet
+!processed/*.parquet
+!rendered/**/*.parquet
+
+# Question-level / post-level archival panels — exceed GitHub size limits
+# and are derivative of CC BY-SA Stack Overflow content
+processed/*question_level*
+processed/*question_level*.parquet
+processed/*moderation_question_level*
+processed/*disclosed_ai_post_candidates*
+processed/*disclosed_ai_comment_candidates*
+processed/*disclosed_ai_question_candidates*
+processed/*entrant_first_question_validation_sample*
+processed/*posthistory*
+processed/*focal_accept_votes*
+processed/*focal_questions.parquet
+processed/*focal_answers.parquet
+processed/*user_tag_preshock_cohorts*
+processed/*user_level_proxy*
+processed/*user_embedding_panel*
+processed/strengthened_question_latency_sample*
+processed/large_design_question_level_enriched*
+processed/large_design_raw_with_attrition_flags*
+processed/mainstream_design_question_level_enriched*
+processed/mainstream_design_raw_with_attrition_flags*
+processed/closure_ladder_question_level.parquet
+processed/who_still_answers_question_closure_panel.parquet
+processed/who_still_answers_answer_role_question_panel.parquet
+processed/who_still_answers_durability_entrant_panel.parquet
+processed/who_still_answers_devgpt_raw.zip
+processed/who_still_answers_entrant_profiles.csv
+processed/post_2023_api_question*
+processed/stackexchange_20251231_question_*
+processed/stackexchange_20251231_focal_*
+processed/unix_second_setting_question_level*
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.yml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

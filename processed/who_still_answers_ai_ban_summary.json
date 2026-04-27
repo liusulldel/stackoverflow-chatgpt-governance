@@ -1,0 +1,63 @@
+{
+  "n_sample": 90659,
+  "n_disclosed_ai": 276,
+  "n_any_comment_hit": 101,
+  "windows": [
+    {
+      "window_days": 7,
+      "n_questions": 18730,
+      "n_disclosed_ai": 56,
+      "n_question_comment_hits": 13,
+      "n_answer_comment_hits": 19,
+      "n_answer_body_hits": 10,
+      "avg_thread_source_count_disclosed": 1.4642857142857142,
+      "share_disclosed_ai": 0.002989855846235985,
+      "share_post_ban": 0.49033635878270154
+    },
+    {
+      "window_days": 14,
+      "n_questions": 37332,
+      "n_disclosed_ai": 102,
+      "n_question_comment_hits": 23,
+      "n_answer_comment_hits": 26,
+      "n_answer_body_hits": 26,
+      "avg_thread_source_count_disclosed": 1.4509803921568627,
+      "share_disclosed_ai": 0.00273224043715847,
+      "share_post_ban": 0.48649951783992285
+    },
+    {
+      "window_days": 21,
+      "n_questions": 55531,
+      "n_disclosed_ai": 150,
+      "n_question_comment_hits": 28,
+      "n_answer_comment_hits": 32,
+      "n_answer_body_hits": 40,
+      "avg_thread_source_count_disclosed": 1.4666666666666666,
+      "share_disclosed_ai": 0.0027011939277160504,
+      "share_post_ban": 0.4687832021753615
+    },
+    {
+      "window_days": 28,
+      "n_questions": 72485,
+      "n_disclosed_ai": 198,
+      "n_question_comment_hits": 39,
+      "n_answer_comment_hits": 42,
+      "n_answer_body_hits": 58,
+      "avg_thread_source_count_disclosed": 1.505050505050505,
+      "share_disclosed_ai": 0.0027315996413050975,
+      "share_post_ban": 0.45321100917431195
+    },
+    {
+      "window_days": 35,
+      "n_questions": 90659,
+      "n_disclosed_ai": 276,
+      "n_question_comment_hits": 52,
+      "n_answer_comment_hits": 55,
+      "n_answer_body_hits": 84,
+      "avg_thread_source_count_disclosed": 1.5036231884057971,
+      "share_disclosed_ai": 0.0030443750758336182,
+      "share_post_ban": 0.45355673457682083
+    }
+  ],
+  "diagnostics_rows": 40
+}

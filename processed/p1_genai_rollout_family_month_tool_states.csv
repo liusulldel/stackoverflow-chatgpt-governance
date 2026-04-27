@@ -1,0 +1,937 @@
+month_id,month_dt,tool_key,tag_family,tool_family,vendor,product_surface,channel,coverage_scope,mapping_confidence,current_stage_weight,current_stage,current_event_id,current_event_month,current_source_id,tool_active_any,tool_active_full
+2020-01,2020-01-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-02,2020-02-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-03,2020-03-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-04,2020-04-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-05,2020-05-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-06,2020-06-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-07,2020-07-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-08,2020-08-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-09,2020-09-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-10,2020-10-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-11,2020-11-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-12,2020-12-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-01,2021-01-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-02,2021-02-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-03,2021-03-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-04,2021-04-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-05,2021-05-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-06,2021-06-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-07,2021-07-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-08,2021-08-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-09,2021-09-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-10,2021-10-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-11,2021-11-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-12,2021-12-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-01,2022-01-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-02,2022-02-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-03,2022-03-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-04,2022-04-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-05,2022-05-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-06,2022-06-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-07,2022-07-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-08,2022-08-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-09,2022-09-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-10,2022-10-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-11,2022-11-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-12,2022-12-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-01,2023-01-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-02,2023-02-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-03,2023-03-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-04,2023-04-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-05,2023-05-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-06,2023-06-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-07,2023-07-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-08,2023-08-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-09,2023-09-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-10,2023-10-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-11,2023-11-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-12,2023-12-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-01,2024-01-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-02,2024-02-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-03,2024-03-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-04,2024-04-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-05,2024-05-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-06,2024-06-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-07,2024-07-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-08,2024-08-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-09,2024-09-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-10,2024-10-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-11,2024-11-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-12,2024-12-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-01,2025-01-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-02,2025-02-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-03,2025-03-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-04,2025-04-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-05,2025-05-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-06,2025-06-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-07,2025-07-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-08,2025-08-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-09,2025-09-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-10,2025-10-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-11,2025-11-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-12,2025-12-01,github_copilot_ide,data_scripting,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2020-01,2020-01-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-02,2020-02-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-03,2020-03-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-04,2020-04-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-05,2020-05-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-06,2020-06-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-07,2020-07-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-08,2020-08-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-09,2020-09-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-10,2020-10-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-11,2020-11-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-12,2020-12-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-01,2021-01-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-02,2021-02-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-03,2021-03-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-04,2021-04-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-05,2021-05-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-06,2021-06-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-07,2021-07-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-08,2021-08-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-09,2021-09-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-10,2021-10-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-11,2021-11-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-12,2021-12-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-01,2022-01-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-02,2022-02-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-03,2022-03-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-04,2022-04-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-05,2022-05-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-06,2022-06-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-07,2022-07-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-08,2022-08-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-09,2022-09-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-10,2022-10-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-11,2022-11-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-12,2022-12-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-01,2023-01-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-02,2023-02-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-03,2023-03-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-04,2023-04-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-05,2023-05-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-06,2023-06-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-07,2023-07-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-08,2023-08-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-09,2023-09-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-10,2023-10-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-11,2023-11-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-12,2023-12-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-01,2024-01-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-02,2024-02-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-03,2024-03-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-04,2024-04-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-05,2024-05-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-06,2024-06-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-07,2024-07-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-08,2024-08-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-09,2024-09-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-10,2024-10-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-11,2024-11-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-12,2024-12-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-01,2025-01-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-02,2025-02-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-03,2025-03-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-04,2025-04-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-05,2025-05-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-06,2025-06-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-07,2025-07-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-08,2025-08-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-09,2025-09-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-10,2025-10-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-11,2025-11-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-12,2025-12-01,github_copilot_ide,application_framework,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2020-01,2020-01-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-02,2020-02-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-03,2020-03-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-04,2020-04-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-05,2020-05-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-06,2020-06-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-07,2020-07-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-08,2020-08-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-09,2020-09-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-10,2020-10-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-11,2020-11-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-12,2020-12-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-01,2021-01-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-02,2021-02-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-03,2021-03-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-04,2021-04-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-05,2021-05-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-06,2021-06-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-07,2021-07-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-08,2021-08-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-09,2021-09-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-10,2021-10-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-11,2021-11-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-12,2021-12-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-01,2022-01-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-02,2022-02-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-03,2022-03-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-04,2022-04-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-05,2022-05-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-06,2022-06-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-07,2022-07-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-08,2022-08-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-09,2022-09-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-10,2022-10-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-11,2022-11-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2022-12,2022-12-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-01,2023-01-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-02,2023-02-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-03,2023-03-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-04,2023-04-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-05,2023-05-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-06,2023-06-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-07,2023-07-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-08,2023-08-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-09,2023-09-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-10,2023-10-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-11,2023-11-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2023-12,2023-12-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-01,2024-01-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-02,2024-02-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-03,2024-03-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-04,2024-04-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-05,2024-05-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-06,2024-06-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-07,2024-07-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-08,2024-08-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-09,2024-09-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-10,2024-10-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-11,2024-11-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2024-12,2024-12-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-01,2025-01-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-02,2025-02-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-03,2025-03-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-04,2025-04-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-05,2025-05-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-06,2025-06-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-07,2025-07-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-08,2025-08-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-09,2025-09-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-10,2025-10-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-11,2025-11-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2025-12,2025-12-01,github_copilot_ide,systems_infra,ide_copilot,github,github copilot (ide),ide,cross_cutting,medium,1.0,ga,EVT-GH-0001,2022-06,SRC-GH-0001,1,1
+2020-01,2020-01-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-02,2020-02-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-03,2020-03-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-04,2020-04-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-05,2020-05-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-06,2020-06-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-07,2020-07-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-08,2020-08-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-09,2020-09-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-10,2020-10-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-11,2020-11-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-12,2020-12-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-01,2021-01-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-02,2021-02-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-03,2021-03-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-04,2021-04-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-05,2021-05-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-06,2021-06-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-07,2021-07-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-08,2021-08-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-09,2021-09-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-10,2021-10-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-11,2021-11-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-12,2021-12-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-01,2022-01-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-02,2022-02-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-03,2022-03-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-04,2022-04-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-05,2022-05-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-06,2022-06-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-07,2022-07-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-08,2022-08-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-09,2022-09-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-10,2022-10-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-11,2022-11-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-12,2022-12-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-01,2023-01-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-02,2023-02-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-03,2023-03-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-04,2023-04-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-05,2023-05-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-06,2023-06-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-07,2023-07-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-08,2023-08-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-09,2023-09-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-10,2023-10-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-11,2023-11-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-12,2023-12-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-01,2024-01-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-02,2024-02-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-03,2024-03-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-04,2024-04-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-05,2024-05-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-06,2024-06-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-07,2024-07-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-08,2024-08-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-09,2024-09-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-10,2024-10-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-11,2024-11-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-12,2024-12-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-01,2025-01-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-02,2025-02-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-03,2025-03-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-04,2025-04-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-05,2025-05-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-06,2025-06-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-07,2025-07-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-08,2025-08-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-09,2025-09-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-10,2025-10-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-11,2025-11-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-12,2025-12-01,jetbrains_ai_assistant,data_scripting,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2020-01,2020-01-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-02,2020-02-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-03,2020-03-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-04,2020-04-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-05,2020-05-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-06,2020-06-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-07,2020-07-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-08,2020-08-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-09,2020-09-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-10,2020-10-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-11,2020-11-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-12,2020-12-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-01,2021-01-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-02,2021-02-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-03,2021-03-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-04,2021-04-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-05,2021-05-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-06,2021-06-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-07,2021-07-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-08,2021-08-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-09,2021-09-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-10,2021-10-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-11,2021-11-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-12,2021-12-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-01,2022-01-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-02,2022-02-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-03,2022-03-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-04,2022-04-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-05,2022-05-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-06,2022-06-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-07,2022-07-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-08,2022-08-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-09,2022-09-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-10,2022-10-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-11,2022-11-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-12,2022-12-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-01,2023-01-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-02,2023-02-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-03,2023-03-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-04,2023-04-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-05,2023-05-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-06,2023-06-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-07,2023-07-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-08,2023-08-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-09,2023-09-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-10,2023-10-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-11,2023-11-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-12,2023-12-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-01,2024-01-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-02,2024-02-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-03,2024-03-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-04,2024-04-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-05,2024-05-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-06,2024-06-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-07,2024-07-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-08,2024-08-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-09,2024-09-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-10,2024-10-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-11,2024-11-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-12,2024-12-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-01,2025-01-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-02,2025-02-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-03,2025-03-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-04,2025-04-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-05,2025-05-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-06,2025-06-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-07,2025-07-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-08,2025-08-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-09,2025-09-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-10,2025-10-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-11,2025-11-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-12,2025-12-01,jetbrains_ai_assistant,application_framework,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2020-01,2020-01-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-02,2020-02-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-03,2020-03-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-04,2020-04-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-05,2020-05-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-06,2020-06-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-07,2020-07-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-08,2020-08-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-09,2020-09-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-10,2020-10-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-11,2020-11-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2020-12,2020-12-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-01,2021-01-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-02,2021-02-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-03,2021-03-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-04,2021-04-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-05,2021-05-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-06,2021-06-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-07,2021-07-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-08,2021-08-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-09,2021-09-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-10,2021-10-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-11,2021-11-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2021-12,2021-12-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-01,2022-01-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-02,2022-02-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-03,2022-03-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-04,2022-04-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-05,2022-05-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-06,2022-06-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-07,2022-07-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-08,2022-08-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-09,2022-09-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-10,2022-10-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-11,2022-11-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2022-12,2022-12-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-01,2023-01-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-02,2023-02-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-03,2023-03-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-04,2023-04-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-05,2023-05-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.0,,,,,0,0
+2023-06,2023-06-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-07,2023-07-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-08,2023-08-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-09,2023-09-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-10,2023-10-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-11,2023-11-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,0.3,preview,EVT-JB-0001,2023-06,SRC-JB-0001,1,0
+2023-12,2023-12-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-01,2024-01-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-02,2024-02-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-03,2024-03-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-04,2024-04-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-05,2024-05-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-06,2024-06-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-07,2024-07-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-08,2024-08-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-09,2024-09-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-10,2024-10-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-11,2024-11-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2024-12,2024-12-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-01,2025-01-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-02,2025-02-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-03,2025-03-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-04,2025-04-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-05,2025-05-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-06,2025-06-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-07,2025-07-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-08,2025-08-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-09,2025-09-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-10,2025-10-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-11,2025-11-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2025-12,2025-12-01,jetbrains_ai_assistant,systems_infra,ide_assistant,jetbrains,jetbrains ai assistant (ide),ide,cross_cutting,medium,1.0,ga,EVT-JB-0002,2023-12,SRC-JB-0002,1,1
+2020-01,2020-01-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-02,2020-02-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-03,2020-03-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-04,2020-04-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-05,2020-05-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-06,2020-06-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-07,2020-07-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-08,2020-08-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-09,2020-09-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-10,2020-10-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-11,2020-11-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2020-12,2020-12-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-01,2021-01-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-02,2021-02-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-03,2021-03-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-04,2021-04-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-05,2021-05-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-06,2021-06-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-07,2021-07-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-08,2021-08-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-09,2021-09-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-10,2021-10-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-11,2021-11-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2021-12,2021-12-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-01,2022-01-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-02,2022-02-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-03,2022-03-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-04,2022-04-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-05,2022-05-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-06,2022-06-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-07,2022-07-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-08,2022-08-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-09,2022-09-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-10,2022-10-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-11,2022-11-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2022-12,2022-12-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-01,2023-01-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-02,2023-02-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-03,2023-03-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-04,2023-04-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-05,2023-05-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-06,2023-06-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-07,2023-07-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-08,2023-08-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-09,2023-09-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-10,2023-10-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-11,2023-11-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2023-12,2023-12-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2024-01,2024-01-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2024-02,2024-02-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2024-03,2024-03-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.0,,,,,0,0
+2024-04,2024-04-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-05,2024-05-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-06,2024-06-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-07,2024-07-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-08,2024-08-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-09,2024-09-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-10,2024-10-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-11,2024-11-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2024-12,2024-12-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-01,2025-01-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-02,2025-02-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-03,2025-03-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-04,2025-04-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-05,2025-05-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-06,2025-06-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-07,2025-07-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-08,2025-08-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-09,2025-09-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-10,2025-10-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-11,2025-11-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2025-12,2025-12-01,google_android_studio_gemini,application_framework,ide_assistant,google,android studio gemini,ide,family_specific,high,0.3,preview,EVT-GOOG-0001,2024-04,SRC-GOOG-0001,1,0
+2020-01,2020-01-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-02,2020-02-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-03,2020-03-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-04,2020-04-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-05,2020-05-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-06,2020-06-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-07,2020-07-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-08,2020-08-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-09,2020-09-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-10,2020-10-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-11,2020-11-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2020-12,2020-12-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-01,2021-01-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-02,2021-02-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-03,2021-03-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-04,2021-04-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-05,2021-05-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-06,2021-06-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-07,2021-07-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-08,2021-08-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-09,2021-09-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-10,2021-10-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-11,2021-11-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2021-12,2021-12-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-01,2022-01-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-02,2022-02-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-03,2022-03-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-04,2022-04-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-05,2022-05-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-06,2022-06-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-07,2022-07-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-08,2022-08-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-09,2022-09-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-10,2022-10-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-11,2022-11-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2022-12,2022-12-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-01,2023-01-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-02,2023-02-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-03,2023-03-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-04,2023-04-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-05,2023-05-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-06,2023-06-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-07,2023-07-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-08,2023-08-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-09,2023-09-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-10,2023-10-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-11,2023-11-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2023-12,2023-12-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-01,2024-01-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-02,2024-02-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-03,2024-03-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-04,2024-04-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-05,2024-05-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-06,2024-06-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-07,2024-07-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-08,2024-08-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-09,2024-09-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,0.0,,,,,0,0
+2024-10,2024-10-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2024-11,2024-11-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2024-12,2024-12-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-01,2025-01-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-02,2025-02-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-03,2025-03-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-04,2025-04-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-05,2025-05-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-06,2025-06-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-07,2025-07-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-08,2025-08-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-09,2025-09-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-10,2025-10-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-11,2025-11-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2025-12,2025-12-01,firebase_ai_logic_sdk,application_framework,app_ai_sdk,firebase,vertex ai in firebase / firebase ai logic sdk,sdk,family_specific,high,1.0,ga,EVT-FB-0001,2024-10,SRC-FB-0001,1,1
+2020-01,2020-01-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-02,2020-02-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-03,2020-03-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-04,2020-04-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-05,2020-05-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-06,2020-06-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-07,2020-07-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-08,2020-08-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-09,2020-09-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-10,2020-10-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-11,2020-11-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-12,2020-12-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-01,2021-01-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-02,2021-02-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-03,2021-03-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-04,2021-04-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-05,2021-05-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-06,2021-06-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-07,2021-07-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-08,2021-08-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-09,2021-09-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-10,2021-10-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-11,2021-11-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-12,2021-12-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-01,2022-01-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-02,2022-02-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-03,2022-03-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-04,2022-04-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-05,2022-05-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-06,2022-06-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-07,2022-07-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-08,2022-08-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-09,2022-09-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-10,2022-10-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-11,2022-11-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-12,2022-12-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-01,2023-01-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-02,2023-02-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-03,2023-03-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-04,2023-04-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-05,2023-05-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-06,2023-06-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-07,2023-07-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-08,2023-08-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-09,2023-09-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-10,2023-10-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-11,2023-11-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-12,2023-12-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-01,2024-01-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-02,2024-02-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-03,2024-03-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-04,2024-04-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-05,2024-05-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-06,2024-06-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2024-07,2024-07-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2024-08,2024-08-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2024-09,2024-09-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2024-10,2024-10-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2024-11,2024-11-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2024-12,2024-12-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-01,2025-01-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-02,2025-02-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-03,2025-03-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-04,2025-04-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-05,2025-05-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-06,2025-06-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-07,2025-07-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-08,2025-08-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-09,2025-09-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-10,2025-10-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-11,2025-11-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2025-12,2025-12-01,databricks_ai_assistant,data_scripting,cloud_platform,databricks,databricks assistant,cloud_console,family_specific,medium,1.0,ga,EVT-DBX-0001,2024-06,SRC-DBX-0001,1,1
+2020-01,2020-01-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-02,2020-02-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-03,2020-03-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-04,2020-04-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-05,2020-05-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-06,2020-06-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-07,2020-07-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-08,2020-08-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-09,2020-09-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-10,2020-10-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-11,2020-11-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2020-12,2020-12-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-01,2021-01-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-02,2021-02-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-03,2021-03-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-04,2021-04-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-05,2021-05-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-06,2021-06-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-07,2021-07-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-08,2021-08-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-09,2021-09-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-10,2021-10-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-11,2021-11-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2021-12,2021-12-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-01,2022-01-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-02,2022-02-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-03,2022-03-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-04,2022-04-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-05,2022-05-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-06,2022-06-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-07,2022-07-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-08,2022-08-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-09,2022-09-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-10,2022-10-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-11,2022-11-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2022-12,2022-12-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-01,2023-01-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-02,2023-02-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-03,2023-03-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-04,2023-04-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-05,2023-05-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-06,2023-06-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-07,2023-07-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-08,2023-08-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-09,2023-09-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-10,2023-10-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-11,2023-11-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2023-12,2023-12-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2024-01,2024-01-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2024-02,2024-02-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2024-03,2024-03-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,0.0,,,,,0,0
+2024-04,2024-04-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-05,2024-05-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-06,2024-06-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-07,2024-07-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-08,2024-08-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-09,2024-09-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-10,2024-10-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-11,2024-11-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2024-12,2024-12-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-01,2025-01-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-02,2025-02-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-03,2025-03-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-04,2025-04-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-05,2025-05-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-06,2025-06-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-07,2025-07-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-08,2025-08-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-09,2025-09-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-10,2025-10-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-11,2025-11-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2025-12,2025-12-01,datagrip_ai_schema_context,data_scripting,db_ide_assistant,jetbrains,datagrip ai assistant schema context,ide,family_specific,high,1.0,ga,EVT-JB-0003,2024-04,SRC-JB-0003,1,1
+2020-01,2020-01-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-02,2020-02-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-03,2020-03-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-04,2020-04-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-05,2020-05-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-06,2020-06-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-07,2020-07-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-08,2020-08-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-09,2020-09-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-10,2020-10-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-11,2020-11-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2020-12,2020-12-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-01,2021-01-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-02,2021-02-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-03,2021-03-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-04,2021-04-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-05,2021-05-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-06,2021-06-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-07,2021-07-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-08,2021-08-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-09,2021-09-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-10,2021-10-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-11,2021-11-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2021-12,2021-12-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-01,2022-01-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-02,2022-02-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-03,2022-03-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-04,2022-04-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-05,2022-05-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-06,2022-06-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-07,2022-07-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-08,2022-08-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-09,2022-09-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-10,2022-10-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-11,2022-11-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2022-12,2022-12-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-01,2023-01-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-02,2023-02-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-03,2023-03-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-04,2023-04-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-05,2023-05-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-06,2023-06-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-07,2023-07-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-08,2023-08-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-09,2023-09-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-10,2023-10-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-11,2023-11-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2023-12,2023-12-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-01,2024-01-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-02,2024-02-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-03,2024-03-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-04,2024-04-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-05,2024-05-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-06,2024-06-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-07,2024-07-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-08,2024-08-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-09,2024-09-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-10,2024-10-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,0.0,,,,,0,0
+2024-11,2024-11-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2024-12,2024-12-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-01,2025-01-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-02,2025-02-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-03,2025-03-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-04,2025-04-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-05,2025-05-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-06,2025-06-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-07,2025-07-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-08,2025-08-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-09,2025-09-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-10,2025-10-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-11,2025-11-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2025-12,2025-12-01,amazon_q_developer_console_context,systems_infra,cloud_console_assistant,aws,amazon q developer console context,cloud_console,family_specific,medium,1.0,ga,EVT-AWS-0001,2024-11,SRC-AWS-0001,1,1
+2020-01,2020-01-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-02,2020-02-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-03,2020-03-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-04,2020-04-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-05,2020-05-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-06,2020-06-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-07,2020-07-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-08,2020-08-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-09,2020-09-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-10,2020-10-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-11,2020-11-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2020-12,2020-12-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-01,2021-01-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-02,2021-02-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-03,2021-03-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-04,2021-04-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-05,2021-05-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-06,2021-06-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-07,2021-07-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-08,2021-08-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-09,2021-09-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-10,2021-10-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-11,2021-11-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2021-12,2021-12-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-01,2022-01-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-02,2022-02-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-03,2022-03-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-04,2022-04-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-05,2022-05-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-06,2022-06-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-07,2022-07-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-08,2022-08-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-09,2022-09-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-10,2022-10-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-11,2022-11-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2022-12,2022-12-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-01,2023-01-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-02,2023-02-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-03,2023-03-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-04,2023-04-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-05,2023-05-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-06,2023-06-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-07,2023-07-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-08,2023-08-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-09,2023-09-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-10,2023-10-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-11,2023-11-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2023-12,2023-12-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-01,2024-01-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-02,2024-02-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-03,2024-03-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-04,2024-04-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-05,2024-05-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-06,2024-06-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-07,2024-07-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-08,2024-08-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-09,2024-09-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-10,2024-10-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-11,2024-11-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2024-12,2024-12-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2025-01,2025-01-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.0,,,,,0,0
+2025-02,2025-02-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-03,2025-03-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-04,2025-04-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-05,2025-05-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-06,2025-06-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-07,2025-07-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-08,2025-08-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-09,2025-09-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-10,2025-10-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-11,2025-11-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2025-12,2025-12-01,docker_ai_agent,systems_infra,container_tooling,docker,docker ai agent / gordon,docker_desktop,family_specific,high,0.6,beta,EVT-DKR-0001,2025-02,SRC-DKR-0001,1,0
+2020-01,2020-01-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-02,2020-02-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-03,2020-03-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-04,2020-04-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-05,2020-05-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-06,2020-06-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-07,2020-07-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-08,2020-08-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-09,2020-09-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-10,2020-10-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-11,2020-11-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2020-12,2020-12-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-01,2021-01-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-02,2021-02-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-03,2021-03-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-04,2021-04-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-05,2021-05-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-06,2021-06-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-07,2021-07-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-08,2021-08-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-09,2021-09-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-10,2021-10-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-11,2021-11-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2021-12,2021-12-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-01,2022-01-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-02,2022-02-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-03,2022-03-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-04,2022-04-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-05,2022-05-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-06,2022-06-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-07,2022-07-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-08,2022-08-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-09,2022-09-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-10,2022-10-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-11,2022-11-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2022-12,2022-12-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-01,2023-01-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-02,2023-02-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-03,2023-03-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-04,2023-04-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-05,2023-05-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-06,2023-06-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-07,2023-07-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-08,2023-08-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-09,2023-09-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-10,2023-10-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-11,2023-11-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2023-12,2023-12-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-01,2024-01-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-02,2024-02-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-03,2024-03-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-04,2024-04-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-05,2024-05-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-06,2024-06-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-07,2024-07-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-08,2024-08-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-09,2024-09-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-10,2024-10-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-11,2024-11-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2024-12,2024-12-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2025-01,2025-01-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2025-02,2025-02-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2025-03,2025-03-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2025-04,2025-04-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2025-05,2025-05-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,0.0,,,,,0,0
+2025-06,2025-06-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,1.0,ga,EVT-RH-0001,2025-06,SRC-RH-0001,1,1
+2025-07,2025-07-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,1.0,ga,EVT-RH-0001,2025-06,SRC-RH-0001,1,1
+2025-08,2025-08-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,1.0,ga,EVT-RH-0001,2025-06,SRC-RH-0001,1,1
+2025-09,2025-09-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,1.0,ga,EVT-RH-0001,2025-06,SRC-RH-0001,1,1
+2025-10,2025-10-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,1.0,ga,EVT-RH-0001,2025-06,SRC-RH-0001,1,1
+2025-11,2025-11-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,1.0,ga,EVT-RH-0001,2025-06,SRC-RH-0001,1,1
+2025-12,2025-12-01,redhat_openshift_lightspeed,systems_infra,container_platform,redhat,openshift lightspeed,web_console,family_specific,high,1.0,ga,EVT-RH-0001,2025-06,SRC-RH-0001,1,1

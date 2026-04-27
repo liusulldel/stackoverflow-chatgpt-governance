@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "source_posts": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\raw\\stackoverflow_2023_05_posts.parquet",
+    "source_tags": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\raw\\stackoverflow_2023_05_tags.parquet",
+    "selected_tags": [
+      "apache-spark",
+      "android",
+      "bash",
+      "docker",
+      "excel",
+      "firebase",
+      "kubernetes",
+      "linux",
+      "memory-management",
+      "multithreading",
+      "numpy",
+      "pandas",
+      "python",
+      "regex",
+      "javascript",
+      "sql"
+    ],
+    "start_date": "2022-01-01",
+    "end_date_exclusive": "2023-06-01",
+    "sample_rows": 718613,
+    "tag_rows": [
+      {
+        "tag": "android",
+        "all_time_tag_count": 1400026
+      },
+      {
+        "tag": "apache-spark",
+        "all_time_tag_count": 79623
+      },
+      {
+        "tag": "bash",
+        "all_time_tag_count": 151747
+      },
+      {
+        "tag": "docker",
+        "all_time_tag_count": 127471
+      },
+      {
+        "tag": "excel",
+        "all_time_tag_count": 276708
+      },
+      {
+        "tag": "firebase",
+        "all_time_tag_count": 138112
+      },
+      {
+        "tag": "javascript",
+        "all_time_tag_count": 2479947
+      },
+      {
+        "tag": "kubernetes",
+        "all_time_tag_count": 54490
+      },
+      {
+        "tag": "linux",
+        "all_time_tag_count": 223555
+      },
+      {
+        "tag": "memory-management",
+        "all_time_tag_count": 27063
+      },
+      {
+        "tag": "multithreading",
+        "all_time_tag_count": 137922
+      },
+      {
+        "tag": "numpy",
+        "all_time_tag_count": 110102
+      },
+      {
+        "tag": "pandas",
+        "all_time_tag_count": 275593
+      },
+      {
+        "tag": "python",
+        "all_time_tag_count": 2113196
+      },
+      {
+        "tag": "regex",
+        "all_time_tag_count": 256791
+      },
+      {
+        "tag": "sql",
+        "all_time_tag_count": 656848
+      }
+    ]
+  },
+  "results": {
+    "accepted_rate_primary": {
+      "coef": -0.010354445674073275,
+      "se": 0.005122268842712998,
+      "pval": 0.043232490087260135,
+      "nobs": 240.0,
+      "r2": 0.9769395960564884
+    },
+    "mean_log_answers_primary": {
+      "coef": -0.022768477139728016,
+      "se": 0.01102640599117078,
+      "pval": 0.03893202187687988,
+      "nobs": 240.0,
+      "r2": 0.9783646779863202
+    },
+    "log_questions_secondary": {
+      "coef": -0.048330934973988326,
+      "se": 0.011428530668355098,
+      "pval": 2.3476167012811347e-05,
+      "nobs": 240.0,
+      "r2": 0.9992092944853291
+    },
+    "mean_log_views_secondary": {
+      "coef": 0.18724924916766483,
+      "se": 0.03563430258817659,
+      "pval": 1.4822798974796104e-07,
+      "nobs": 240.0,
+      "r2": 0.9954758118236048
+    },
+    "accepted_question_hc1": {
+      "coef": -0.010264167020207552,
+      "se": 0.004878956162381617,
+      "pval": 0.035399133574792255,
+      "nobs": 629022.0,
+      "r2": 0.021288332788812037
+    },
+    "log_answers_question_hc1": {
+      "coef": -0.0228081121888598,
+      "se": 0.004731027041376833,
+      "pval": 1.4286596795697732e-06,
+      "nobs": 629022.0,
+      "r2": 0.03948227535423399
+    },
+    "accepted_rate_first_focal": {
+      "coef": -0.012402192971888864,
+      "se": 0.004176372557457678,
+      "pval": 0.002981791378013095,
+      "nobs": 240.0,
+      "r2": 0.9792471465448671
+    },
+    "mean_log_answers_first_focal": {
+      "coef": -0.023986425961357402,
+      "se": 0.010730903889934095,
+      "pval": 0.025399882557977135,
+      "nobs": 240.0,
+      "r2": 0.9805604392239679
+    },
+    "accepted_rate_fractional_all_tag": {
+      "coef": -0.01126740904812758,
+      "se": 0.003982840272737173,
+      "pval": 0.004669538713367581,
+      "nobs": 240.0,
+      "r2": 0.9830988161882329
+    },
+    "mean_log_answers_fractional_all_tag": {
+      "coef": -0.023153396241562672,
+      "se": 0.009938960034495518,
+      "pval": 0.01982945825449467,
+      "nobs": 240.0,
+      "r2": 0.9807689787622897
+    }
+  },
+  "high_tags": [
+    "bash",
+    "excel",
+    "javascript",
+    "numpy",
+    "pandas",
+    "python",
+    "regex",
+    "sql"
+  ],
+  "low_tags": [
+    "android",
+    "apache-spark",
+    "docker",
+    "firebase",
+    "kubernetes",
+    "linux",
+    "memory-management",
+    "multithreading"
+  ],
+  "partition_permutation_summary": {
+    "anchor_tag": "bash",
+    "n_unique_partitions": 6435,
+    "observed_coef": -0.010354445674073275,
+    "observed_pval": 0.043232490087260135,
+    "coef_percentile_from_bottom": 10.505050505050505,
+    "pval_percentile_from_bottom": 17.7000777000777,
+    "share_negative_coefficients": 0.4666666666666667,
+    "share_coefficients_at_least_as_negative_as_observed": 0.10505050505050505
+  }
+}

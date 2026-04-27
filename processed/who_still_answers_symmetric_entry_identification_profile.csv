@@ -1,0 +1,4 @@
+specification,preferred_variant,preferred_term,expected_sign,actual_break_month,actual_coef,actual_se,actual_pval,actual_directional_coef,actual_rank_vs_pre_breaks,n_candidate_breaks,n_pre_breaks,actual_rank_percentile_vs_pre,significant_pre_breaks,share_significant_pre_breaks,first_significant_pre_break,pre_break_positive_share
+novice_entry_share,slope_only,exposure_break_slope,1.0,2022-12,-0.0011834185254524113,0.0004903373345942216,0.01580106798942017,-0.0011834185254524113,2,30,29,0.9655172413793104,14,0.4827586206896552,2021-10,0.0
+expert_answer_share,level_only,exposure_break_post,-1.0,2022-12,-0.02107305708036,0.011031157010637062,0.056091823337890735,0.02107305708036,1,30,29,1.0,6,0.20689655172413793,2020-07,0.4482758620689655
+accepted_7d_rate,level_only,exposure_break_post,-1.0,2022-12,0.00030822448426973126,0.0021587962190383557,0.886467020641,-0.00030822448426973126,16,30,29,0.48275862068965514,0,0.0,,0.4482758620689655

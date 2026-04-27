@@ -1,0 +1,4 @@
+specification,term,coef,cluster_se,cluster_pval,wild_cluster_pval,successful_draws,reps_requested
+baseline_log_questions,exposure_post,-0.006042757580934405,0.026452881196884794,0.8193082687507575,0.8158158158158159,999,999
+segmented_mean_log_views_level_break,exposure_index:post_chatgpt,0.029301695638557702,0.015614027548682078,0.06056932232615823,0.1841841841841842,999,999
+segmented_mean_log_views_post_slope,exposure_index:time_post,0.024781568471024494,0.030386231347743407,0.4147560972551517,0.5265265265265265,999,999

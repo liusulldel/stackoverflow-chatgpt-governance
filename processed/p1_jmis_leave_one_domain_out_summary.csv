@@ -1,0 +1,8 @@
+model_id,panel,outcome,term,full_coef,n_leaveouts,n_positive,n_negative,min_coef,median_coef,max_coef
+T2_residual_queue_complexity,residual,residual_queue_complexity_index_mean,high_post,0.05512033694139709,16.0,16.0,0.0,0.04325449980419858,0.05534662446900825,0.06144161940877918
+T3_brand_new_share,residual,brand_new_platform_share,high_post,0.030050089450070705,16.0,16.0,0.0,0.025414275042157153,0.02993108380901454,0.03822700986885856
+T3_low_tenure_share,residual,low_tenure_existing_share,high_post,-0.06276576895500968,16.0,0.0,16.0,-0.07050465386645483,-0.06299271616141339,-0.056157325770076025
+T4A_accepted_vote_30d,subtype,accepted_vote_30d_rate,high_post,0.009133906533247872,16.0,16.0,0.0,0.007770601399277433,0.009183189106959932,0.011140296047788609
+T4A_first_answer_1d,subtype,first_answer_1d_rate_closure,high_post,-0.03253075449220413,16.0,0.0,16.0,-0.03798904274862832,-0.03264316974397671,-0.022324115285959213
+T4B_brand_new_to_any_answer_7d,subtype,any_answer_7d_rate,brand_new_platform_share,0.12710268729144314,16.0,16.0,0.0,0.08311538694774928,0.13082593040635038,0.14087514924295308
+T4B_established_to_any_answer_7d,subtype,any_answer_7d_rate,established_cross_tag_share,-0.12208356646400555,16.0,0.0,16.0,-0.13526215238707387,-0.12503369289344057,-0.0830170673860632

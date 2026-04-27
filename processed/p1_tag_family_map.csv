@@ -1,0 +1,17 @@
+primary_tag,tag_family
+android,application_framework
+firebase,application_framework
+javascript,application_framework
+bash,data_scripting
+excel,data_scripting
+numpy,data_scripting
+pandas,data_scripting
+python,data_scripting
+regex,data_scripting
+sql,data_scripting
+apache-spark,systems_infra
+docker,systems_infra
+kubernetes,systems_infra
+linux,systems_infra
+memory-management,systems_infra
+multithreading,systems_infra

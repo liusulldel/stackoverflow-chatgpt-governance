@@ -1,0 +1,33 @@
+{
+  "unit": "author-linked direct-disclosure event",
+  "telemetry_present": false,
+  "safe_label": "author-linked direct-disclosure event evidence",
+  "roles": [
+    "asker",
+    "answerer",
+    "question_commenter",
+    "answer_commenter"
+  ],
+  "surfaces": [
+    "title",
+    "question_body",
+    "answer_body",
+    "question_comment",
+    "answer_comment"
+  ],
+  "key_fields": [
+    "user_id",
+    "role",
+    "source_surface",
+    "event_ts",
+    "event_month",
+    "question_id",
+    "answer_id",
+    "comment_id",
+    "strict_pattern_labels",
+    "tool_family_labels",
+    "primary_tag",
+    "high_tag",
+    "exposure_index"
+  ]
+}

@@ -1,0 +1,7 @@
+specification,outcome,term,weight_col,coef,se,pval,nobs,wild_cluster_bootstrap_pval,formula
+accepted_vote_7d_primary,accepted_7d_rate,high_post,accepted_7d_denom,0.005491836773286602,0.002581783111942774,0.03340772408338663,1147,0.17794486215538846,accepted_7d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)
+accepted_vote_7d_fractional,accepted_7d_rate,high_post,accepted_7d_denom,0.005993787034666865,0.0022918258105705572,0.00891519628251568,1152,0.10526315789473684,accepted_7d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)
+accepted_vote_30d_primary,accepted_30d_rate,high_post,accepted_30d_denom,0.009133906533247872,0.002893942036226702,0.0015983037997761972,1140,0.05012531328320802,accepted_30d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)
+first_answer_1d_primary,first_answer_1d_rate,high_post,first_answer_1d_denom,-0.03253075449220413,0.010482813974831643,0.001914102180839473,1147,0.045112781954887216,first_answer_1d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)
+accepted_answer_created_7d_primary,accepted_answer_created_7d_rate,high_post,accepted_answer_created_7d_denom,-0.0134144615535993,0.0058878036979027855,0.022705894663213374,1147,0.07017543859649122,accepted_answer_created_7d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)
+accepted_archive_primary,accepted_archive_rate,high_post,n_questions,-0.007743755194330726,0.005909203387322512,0.19004138179280672,1147,0.19548872180451127,accepted_archive_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)

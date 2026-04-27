@@ -1,0 +1,7 @@
+family,outcome,term,coef,se,pval,nobs,weight_col,formula
+binary,novice_entry_share,high_post,-0.032715679504938984,0.008463096350477203,0.00011077704197281562,1145,n_new_answerers,novice_entry_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+binary,first_answer_1d_rate,high_post,-0.03253075449220413,0.010482813974831643,0.001914102180839473,1147,first_answer_1d_denom,first_answer_1d_rate ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+binary,accepted_30d_rate,high_post,0.009133906533247872,0.002893942036226702,0.0015983037997761972,1140,accepted_30d_denom,accepted_30d_rate ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+continuous,novice_entry_share,exposure_post,-0.013222648586008542,0.004968137114563527,0.007779558954920515,1145,n_new_answerers,novice_entry_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+continuous,first_answer_1d_rate,exposure_post,-0.013423604569789286,0.008641748087700763,0.12034105588988037,1147,first_answer_1d_denom,first_answer_1d_rate ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)
+continuous,accepted_30d_rate,exposure_post,0.001488425135396682,0.0027048235956319056,0.5821235855915077,1140,accepted_30d_denom,accepted_30d_rate ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)

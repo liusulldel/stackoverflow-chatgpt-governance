@@ -1,0 +1,17 @@
+{
+  "generated_outputs": {
+    "jetbrains_16tag_calibration": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_jetbrains_16tag_calibration.csv",
+    "incumbent_entry_decomposition": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_incumbent_entry_decomposition.csv",
+    "incumbent_activity_decomposition": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_incumbent_activity_decomposition.csv",
+    "certification_conversion_ladder": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_certification_conversion_ladder.csv",
+    "certification_conversion_models": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_certification_conversion_models.csv",
+    "timing_direct_ai_validation": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_timing_direct_ai_validation_surface.csv"
+  },
+  "n_jetbrains_tags": 16,
+  "all_jetbrains_clusters_positive_private_public_gap": true,
+  "role_decomposition_rows": 20,
+  "incumbent_activity_rows": 6,
+  "certification_model_rows": 10,
+  "timing_rows": 12,
+  "safe_paper_status": "completed_package_ready_after manuscript appendix integration and render"
+}

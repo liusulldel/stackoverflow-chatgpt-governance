@@ -1,0 +1,42 @@
+{
+  "leave_two_out": {
+    "n_models": 120,
+    "negative_share": 0.9916666666666667,
+    "significant_005_share": 0.43333333333333335,
+    "coef_min": -0.017285375722146182,
+    "coef_median": -0.01064514327347595,
+    "coef_max": 0.0006227471156748585,
+    "worst_case_row": {
+      "dropped_tag_a": "javascript",
+      "dropped_tag_b": "python",
+      "coef": 0.0006227471156748585,
+      "se": 0.007689894837064325,
+      "pval": 0.9354558483544521,
+      "n_clusters": 14
+    },
+    "most_negative_row": {
+      "dropped_tag_a": "android",
+      "dropped_tag_b": "docker",
+      "coef": -0.017285375722146182,
+      "se": 0.0066693380401652725,
+      "pval": 0.009548418809214752,
+      "n_clusters": 14
+    }
+  },
+  "placebo_grid": {
+    "n_months": 11,
+    "pre_shock_n": 9,
+    "pre_shock_significant_months": [
+      "2022-04",
+      "2022-10",
+      "2022-11"
+    ],
+    "pre_shock_min_pval": 0.005502851409586268,
+    "closest_pre_shock_row": {
+      "placebo_month": "2022-11",
+      "coef": -0.015436215527400522,
+      "se": 0.00556055265092182,
+      "pval": 0.005502851409586268
+    }
+  }
+}

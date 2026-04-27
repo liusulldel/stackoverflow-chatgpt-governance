@@ -1,0 +1,3 @@
+specification,observed_coef,abs_randomization_pval,one_sided_randomization_pval,num_assignments
+panel_baseline_log_questions,-0.3192618342403499,0.07142857142857142,0.04285714285714286,70
+panel_segmented_mean_log_views_level_break,-0.19146007887464772,0.11428571428571428,0.05714285714285714,70

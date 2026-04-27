@@ -1,0 +1,141 @@
+{
+  "n_rows": 1147,
+  "n_tags": 16,
+  "n_months": 72,
+  "results": [
+    {
+      "family": "binary",
+      "outcome": "novice_entry_share",
+      "term": "high_post",
+      "coef": -0.032715679504938984,
+      "se": 0.008463096350477203,
+      "pval": 0.00011077704197281562,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers",
+      "formula": "novice_entry_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "binary",
+      "outcome": "first_answer_1d_rate",
+      "term": "high_post",
+      "coef": -0.03253075449220413,
+      "se": 0.010482813974831643,
+      "pval": 0.001914102180839473,
+      "nobs": 1147,
+      "weight_col": "first_answer_1d_denom",
+      "formula": "first_answer_1d_rate ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "binary",
+      "outcome": "accepted_30d_rate",
+      "term": "high_post",
+      "coef": 0.009133906533247872,
+      "se": 0.002893942036226702,
+      "pval": 0.0015983037997761972,
+      "nobs": 1140,
+      "weight_col": "accepted_30d_denom",
+      "formula": "accepted_30d_rate ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "continuous",
+      "outcome": "novice_entry_share",
+      "term": "exposure_post",
+      "coef": -0.013222648586008542,
+      "se": 0.004968137114563527,
+      "pval": 0.007779558954920515,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers",
+      "formula": "novice_entry_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "continuous",
+      "outcome": "first_answer_1d_rate",
+      "term": "exposure_post",
+      "coef": -0.013423604569789286,
+      "se": 0.008641748087700763,
+      "pval": 0.12034105588988037,
+      "nobs": 1147,
+      "weight_col": "first_answer_1d_denom",
+      "formula": "first_answer_1d_rate ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "continuous",
+      "outcome": "accepted_30d_rate",
+      "term": "exposure_post",
+      "coef": 0.001488425135396682,
+      "se": 0.0027048235956319056,
+      "pval": 0.5821235855915077,
+      "nobs": 1140,
+      "weight_col": "accepted_30d_denom",
+      "formula": "accepted_30d_rate ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    }
+  ],
+  "subtype_results": [
+    {
+      "family": "binary",
+      "outcome": "brand_new_platform_share",
+      "term": "high_post",
+      "coef": 0.030050089450070698,
+      "se": 0.008853585715612825,
+      "pval": 0.0006885073473170905,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers_profiles",
+      "formula": "brand_new_platform_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "binary",
+      "outcome": "low_tenure_existing_share",
+      "term": "high_post",
+      "coef": -0.06276576895500968,
+      "se": 0.009360015872429938,
+      "pval": 2.003976102051172e-11,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers_profiles",
+      "formula": "low_tenure_existing_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "binary",
+      "outcome": "established_cross_tag_share",
+      "term": "high_post",
+      "coef": 0.03271567950493571,
+      "se": 0.008463096350477246,
+      "pval": 0.0001107770419730003,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers_profiles",
+      "formula": "established_cross_tag_share ~ high_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "continuous",
+      "outcome": "brand_new_platform_share",
+      "term": "exposure_post",
+      "coef": 0.021187962272180824,
+      "se": 0.0036255178430670996,
+      "pval": 5.092523044396937e-09,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers_profiles",
+      "formula": "brand_new_platform_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "continuous",
+      "outcome": "low_tenure_existing_share",
+      "term": "exposure_post",
+      "coef": -0.03441061085818936,
+      "se": 0.004566992491866063,
+      "pval": 4.8971137007224397e-14,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers_profiles",
+      "formula": "low_tenure_existing_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    },
+    {
+      "family": "continuous",
+      "outcome": "established_cross_tag_share",
+      "term": "exposure_post",
+      "coef": 0.013222648586007342,
+      "se": 0.004968137114563623,
+      "pval": 0.0077795589549272855,
+      "nobs": 1145,
+      "weight_col": "n_new_answerers_profiles",
+      "formula": "established_cross_tag_share ~ exposure_post + C(primary_tag):time_index + C(primary_tag) + C(month_id)"
+    }
+  ]
+}

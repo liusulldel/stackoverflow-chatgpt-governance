@@ -1,0 +1,54 @@
+{
+  "n_questions": 1988829,
+  "n_events": 2724,
+  "n_questions_with_event": 2386,
+  "n_users_with_event": 2341,
+  "top_strict_patterns": [
+    {
+      "strict_pattern_family": "from_tool",
+      "n_events": 1578
+    },
+    {
+      "strict_pattern_family": "used_tool",
+      "n_events": 476
+    },
+    {
+      "strict_pattern_family": "tool_said",
+      "n_events": 412
+    },
+    {
+      "strict_pattern_family": "tool_generated",
+      "n_events": 246
+    },
+    {
+      "strict_pattern_family": "ai_assisted",
+      "n_events": 12
+    }
+  ],
+  "top_roles": [
+    {
+      "role": "asker",
+      "n_events": 1762
+    },
+    {
+      "role": "answerer",
+      "n_events": 351
+    },
+    {
+      "role": "answer_commenter",
+      "n_events": 311
+    },
+    {
+      "role": "question_commenter",
+      "n_events": 300
+    }
+  ],
+  "notes": {
+    "telemetry_present": false,
+    "scope": "strict direct-disclosure only (not broad tool mentions)",
+    "candidate_sources_used": {
+      "post_candidates": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_disclosed_ai_post_candidates.txt",
+      "comment_candidates": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_disclosed_ai_comment_candidates.txt"
+    }
+  }
+}

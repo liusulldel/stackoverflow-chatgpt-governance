@@ -1,0 +1,15 @@
+{
+  "novice_entry_share": {
+    "outcome": "novice_entry_share",
+    "weight_col": "n_new_answerers",
+    "formula": "novice_entry_share ~ exposure_post + C(primary_tag) + C(month_id)",
+    "term": "exposure_post",
+    "summary": {
+      "coef": 0.005759913227238719,
+      "se": 0.005063679968360381,
+      "pval": 0.2553312006042576,
+      "nobs": 1145.0,
+      "r2": 0.9397713357091652
+    }
+  }
+}

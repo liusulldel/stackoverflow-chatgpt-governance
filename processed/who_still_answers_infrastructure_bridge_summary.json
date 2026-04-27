@@ -1,0 +1,28 @@
+{
+  "n_bridge_cells": 1147,
+  "primary_bridge_variable": "recent_gap_first_vs_accepted",
+  "primary_outcomes": {
+    "first_positive_answer_latency_mean": {
+      "coef": 283.9036183164226,
+      "pval": 0.00392075435849133
+    },
+    "accepted_cond_any_answer_30d_rate": {
+      "coef": -0.07038470665862756,
+      "pval": 0.05094650572172334
+    },
+    "accepted_vote_30d_rate": {
+      "coef": -0.07522612017702052,
+      "pval": 0.0018520767563979933
+    }
+  },
+  "leave_two_out": {
+    "accepted_cond_any_answer_30d_rate": {
+      "negative_share": 1.0,
+      "significant_share_10pct": 0.6666666666666666
+    },
+    "accepted_vote_30d_rate": {
+      "negative_share": 1.0,
+      "significant_share_10pct": 1.0
+    }
+  }
+}

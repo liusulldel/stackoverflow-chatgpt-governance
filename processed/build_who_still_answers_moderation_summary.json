@@ -1,0 +1,37 @@
+{
+  "observation_cutoff": "2026-01-04T06:46:05.997000+00:00",
+  "n_question_level_rows": 2322009,
+  "n_closed_archive": 141197,
+  "closed_archive_rate": 0.060808119176109995,
+  "closed_7d_mean_eligible": 0.05589733076528169,
+  "closed_30d_mean_eligible": 0.0568805971885403,
+  "min_question_created_at": "2020-01-01T00:01:28.670000+00:00",
+  "max_question_created_at": "2025-12-31T23:14:43.730000+00:00",
+  "diff_in_diff_closed_7d": {
+    "high_pre": 0.060341887842251564,
+    "high_post": 0.06469444527534324,
+    "low_pre": 0.03133591673255311,
+    "low_post": 0.029659411442765123,
+    "diff_in_diff": 0.006029062722879657,
+    "eligible_filter": "closed_7d_eligible"
+  },
+  "diff_in_diff_closed_30d": {
+    "high_pre": 0.061265617771332194,
+    "high_post": 0.065948944685083,
+    "low_pre": 0.03233804136692403,
+    "low_post": 0.0304807306937794,
+    "diff_in_diff": 0.006540637586895437,
+    "eligible_filter": "closed_30d_eligible"
+  },
+  "diff_in_diff_closed_archive": {
+    "high_pre": 0.06535543203233671,
+    "high_post": 0.06962960304786511,
+    "low_pre": 0.03631400339030477,
+    "low_post": 0.03449436665649754,
+    "diff_in_diff": 0.006093807749335635,
+    "eligible_filter": null
+  },
+  "notes": [
+    "Deletion events are not present in Posts.xml; closure relies on ClosedDate for currently-closed questions."
+  ]
+}

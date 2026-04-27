@@ -1,0 +1,276 @@
+{
+  "raw_rows": 718613,
+  "analysis_rows": 629022,
+  "raw_unique_questions": 718613,
+  "analysis_unique_questions": 629022,
+  "dropped_multi_selected_rows": 89591,
+  "unique_tags": 16,
+  "accepted_rate_primary": {
+    "coef": -0.010354445674073275,
+    "se": 0.005122268842712998,
+    "pval": 0.043232490087260135,
+    "nobs": 240.0,
+    "r2": 0.9769395960564884
+  },
+  "mean_log_answers_primary": {
+    "coef": -0.022768477139728016,
+    "se": 0.01102640599117078,
+    "pval": 0.03893202187687988,
+    "nobs": 240.0,
+    "r2": 0.9783646779863202
+  },
+  "accepted_rate_first_focal": {
+    "coef": -0.012402192971888864,
+    "se": 0.004176372557457678,
+    "pval": 0.002981791378013095,
+    "nobs": 240.0,
+    "r2": 0.9792471465448671
+  },
+  "mean_log_answers_first_focal": {
+    "coef": -0.023986425961357402,
+    "se": 0.010730903889934095,
+    "pval": 0.025399882557977135,
+    "nobs": 240.0,
+    "r2": 0.9805604392239679
+  },
+  "accepted_rate_fractional_all_tag": {
+    "coef": -0.01126740904812758,
+    "se": 0.003982840272737173,
+    "pval": 0.004669538713367581,
+    "nobs": 240.0,
+    "r2": 0.9830988161882329
+  },
+  "mean_log_answers_fractional_all_tag": {
+    "coef": -0.023153396241562672,
+    "se": 0.009938960034495518,
+    "pval": 0.01982945825449467,
+    "nobs": 240.0,
+    "r2": 0.9807689787622897
+  },
+  "log_questions_secondary": {
+    "coef": -0.048330934973988326,
+    "se": 0.011428530668355098,
+    "pval": 2.3476167012811347e-05,
+    "nobs": 240.0,
+    "r2": 0.9992092944853291
+  },
+  "placebo_tests": [
+    {
+      "outcome": "accepted_rate",
+      "placebo_month": "2022-07",
+      "coef": 0.007081316354397196,
+      "se": 0.007823217813295482,
+      "pval": 0.36537707347511006
+    },
+    {
+      "outcome": "mean_log_answers",
+      "placebo_month": "2022-07",
+      "coef": -0.0020123990725228746,
+      "se": 0.01478669838157371,
+      "pval": 0.891746000740452
+    },
+    {
+      "outcome": "log_questions",
+      "placebo_month": "2022-07",
+      "coef": 0.02339271513929453,
+      "se": 0.02153831779476119,
+      "pval": 0.27743581665152284
+    },
+    {
+      "outcome": "accepted_rate",
+      "placebo_month": "2022-09",
+      "coef": -0.009335903437210497,
+      "se": 0.011361873975670176,
+      "pval": 0.4112550951205318
+    },
+    {
+      "outcome": "mean_log_answers",
+      "placebo_month": "2022-09",
+      "coef": -0.014014332806108518,
+      "se": 0.01002070372232458,
+      "pval": 0.16195163374564758
+    },
+    {
+      "outcome": "log_questions",
+      "placebo_month": "2022-09",
+      "coef": 0.06216075941320387,
+      "se": 0.025362234829955706,
+      "pval": 0.0142492386034619
+    },
+    {
+      "outcome": "accepted_rate",
+      "placebo_month": "2023-03",
+      "coef": -0.005634200524033177,
+      "se": 0.011695530483404494,
+      "pval": 0.6299909200888574
+    },
+    {
+      "outcome": "mean_log_answers",
+      "placebo_month": "2023-03",
+      "coef": 0.005391756962682716,
+      "se": 0.014245076704589927,
+      "pval": 0.705059432046337
+    },
+    {
+      "outcome": "log_questions",
+      "placebo_month": "2023-03",
+      "coef": 0.014603307303729496,
+      "se": 0.03601464454817221,
+      "pval": 0.6851228958210511
+    }
+  ],
+  "wild_cluster_bootstrap": [
+    {
+      "specification": "accepted_rate_primary",
+      "coef": -0.010354445674073275,
+      "cluster_pval": 0.043232490087260135,
+      "wild_cluster_pval": 0.04604604604604605,
+      "successful_draws": 999
+    },
+    {
+      "specification": "mean_log_answers_primary",
+      "coef": -0.022768477139728016,
+      "cluster_pval": 0.03893202187687988,
+      "wild_cluster_pval": 0.06406406406406406,
+      "successful_draws": 999
+    },
+    {
+      "specification": "accepted_rate_first_focal",
+      "coef": -0.012402192971888864,
+      "cluster_pval": 0.002981791378013095,
+      "wild_cluster_pval": 0.024024024024024024,
+      "successful_draws": 999
+    },
+    {
+      "specification": "accepted_rate_fractional_all_tag",
+      "coef": -0.01126740904812758,
+      "cluster_pval": 0.004669538713367581,
+      "wild_cluster_pval": 0.022022022022022022,
+      "successful_draws": 999
+    }
+  ],
+  "leave_one_out": [
+    {
+      "dropped_tag": "android",
+      "dropped_group": "low",
+      "coef": -0.014524074259209877,
+      "se": 0.005920288087162762,
+      "pval": 0.014156343188281252
+    },
+    {
+      "dropped_tag": "apache-spark",
+      "dropped_group": "low",
+      "coef": -0.011123245112214656,
+      "se": 0.005426111337065672,
+      "pval": 0.0403695229159416
+    },
+    {
+      "dropped_tag": "bash",
+      "dropped_group": "high",
+      "coef": -0.01059520403056003,
+      "se": 0.005151875581388871,
+      "pval": 0.03972739590794372
+    },
+    {
+      "dropped_tag": "docker",
+      "dropped_group": "low",
+      "coef": -0.010816197302252676,
+      "se": 0.005784200065156237,
+      "pval": 0.06148998381953321
+    },
+    {
+      "dropped_tag": "excel",
+      "dropped_group": "high",
+      "coef": -0.011444387497189425,
+      "se": 0.004960827602886911,
+      "pval": 0.021057537321748275
+    },
+    {
+      "dropped_tag": "firebase",
+      "dropped_group": "low",
+      "coef": -0.009062648524104388,
+      "se": 0.004937966419854322,
+      "pval": 0.06646128845765767
+    },
+    {
+      "dropped_tag": "javascript",
+      "dropped_group": "high",
+      "coef": -0.006120037672802943,
+      "se": 0.004805881253433668,
+      "pval": 0.2028592758813934
+    },
+    {
+      "dropped_tag": "kubernetes",
+      "dropped_group": "low",
+      "coef": -0.008293727168323417,
+      "se": 0.004329680502701326,
+      "pval": 0.05542217303888627
+    },
+    {
+      "dropped_tag": "linux",
+      "dropped_group": "low",
+      "coef": -0.010229861864981463,
+      "se": 0.005397222878368422,
+      "pval": 0.05804027194528347
+    },
+    {
+      "dropped_tag": "memory-management",
+      "dropped_group": "low",
+      "coef": -0.010370782286198853,
+      "se": 0.005168614942351507,
+      "pval": 0.04480382777552698
+    },
+    {
+      "dropped_tag": "multithreading",
+      "dropped_group": "low",
+      "coef": -0.010150420629471399,
+      "se": 0.005192404270186095,
+      "pval": 0.050599660199983965
+    },
+    {
+      "dropped_tag": "numpy",
+      "dropped_group": "high",
+      "coef": -0.010434850012316503,
+      "se": 0.0051397988207225855,
+      "pval": 0.04233561197096388
+    },
+    {
+      "dropped_tag": "pandas",
+      "dropped_group": "high",
+      "coef": -0.010860248593945803,
+      "se": 0.005084125088349589,
+      "pval": 0.032670478488835204
+    },
+    {
+      "dropped_tag": "python",
+      "dropped_group": "high",
+      "coef": -0.011771569487482517,
+      "se": 0.006554254137746388,
+      "pval": 0.0724913855189257
+    },
+    {
+      "dropped_tag": "regex",
+      "dropped_group": "high",
+      "coef": -0.010017068597001355,
+      "se": 0.005214898011938435,
+      "pval": 0.05474985303400067
+    },
+    {
+      "dropped_tag": "sql",
+      "dropped_group": "high",
+      "coef": -0.010759355629952502,
+      "se": 0.005279328967767938,
+      "pval": 0.04154835694664478
+    }
+  ],
+  "partition_permutation_summary": {
+    "anchor_tag": "bash",
+    "n_unique_partitions": 6435,
+    "observed_coef": -0.010354445674073275,
+    "observed_pval": 0.043232490087260135,
+    "coef_percentile_from_bottom": 10.505050505050505,
+    "pval_percentile_from_bottom": 17.7000777000777,
+    "share_negative_coefficients": 0.4666666666666667,
+    "share_coefficients_at_least_as_negative_as_observed": 0.10505050505050505
+  }
+}

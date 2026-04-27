@@ -1,0 +1,13 @@
+{
+  "observation_cutoff": "2025-12-31T23:14:43.730000+00:00",
+  "n_question_level_rows": 2322009,
+  "n_primary_panel_rows": 1147,
+  "n_fractional_panel_rows": 1152,
+  "min_question_created_at": "2020-01-01T00:01:28.670000+00:00",
+  "max_question_created_at": "2025-12-31T23:14:43.730000+00:00",
+  "accepted_archive_mean": 0.43640140929686316,
+  "accepted_7d_mean_eligible": 0.16361099936859497,
+  "accepted_30d_mean_eligible": 0.1962856972977724,
+  "first_answer_1d_mean_eligible": 0.6847633924168604,
+  "first_answer_7d_mean_eligible": 0.7478126940838296
+}

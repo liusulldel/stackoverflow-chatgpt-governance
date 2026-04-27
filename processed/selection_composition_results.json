@@ -1,0 +1,97 @@
+{
+  "results": [
+    {
+      "outcome": "title_length_chars_mean",
+      "coef": 0.08364992205599468,
+      "se": 0.24577733790599748,
+      "pval": 0.733594177453204,
+      "nobs": 1147
+    },
+    {
+      "outcome": "body_length_chars_mean",
+      "coef": 8.397402461522635,
+      "se": 18.865695516119846,
+      "pval": 0.6562367105215464,
+      "nobs": 1147
+    },
+    {
+      "outcome": "body_word_count_mean",
+      "coef": 4.0961157185658035,
+      "se": 1.6714106076201414,
+      "pval": 0.014258116047977255,
+      "nobs": 1147
+    },
+    {
+      "outcome": "code_block_count_mean",
+      "coef": -0.015237513639474157,
+      "se": 0.042028623012515566,
+      "pval": 0.71694042008688,
+      "nobs": 1147
+    },
+    {
+      "outcome": "code_char_count_mean",
+      "coef": -1.7333789893711178,
+      "se": 37.51886644377621,
+      "pval": 0.9631506861308677,
+      "nobs": 1147
+    },
+    {
+      "outcome": "error_keyword_density_mean",
+      "coef": 0.0,
+      "se": 0.0,
+      "pval": NaN,
+      "nobs": 1147
+    },
+    {
+      "outcome": "comment_count_mean",
+      "coef": 0.02816836997494588,
+      "se": 0.06219277925086909,
+      "pval": 0.6506061589473353,
+      "nobs": 1147
+    },
+    {
+      "outcome": "has_edit_mean",
+      "coef": 0.009350222794882315,
+      "se": 0.005818901911323616,
+      "pval": 0.10808274227995372,
+      "nobs": 1147
+    },
+    {
+      "outcome": "tag_count_full_mean",
+      "coef": 0.14409543126312324,
+      "se": 0.038041951405415664,
+      "pval": 0.00015198506092382194,
+      "nobs": 1147
+    },
+    {
+      "outcome": "has_code_block_mean",
+      "coef": -0.007033286729225037,
+      "se": 0.014077929954198416,
+      "pval": 0.6173591129233487,
+      "nobs": 1147
+    },
+    {
+      "outcome": "code_share_mean",
+      "coef": -0.01241140794959743,
+      "se": 0.011505105818402594,
+      "pval": 0.28068852966297064,
+      "nobs": 1147
+    },
+    {
+      "outcome": "complexity_index_broad_mean",
+      "coef": 0.01917440613465061,
+      "se": 0.008268452818999713,
+      "pval": 0.020395927877585398,
+      "nobs": 1147
+    },
+    {
+      "outcome": "residual_queue_complexity_index_mean",
+      "coef": 0.05512033694139716,
+      "se": 0.013244168504046765,
+      "pval": 3.156698540499568e-05,
+      "nobs": 1147
+    }
+  ],
+  "n_question_rows": 2035885,
+  "n_panel_rows": 1147
+}

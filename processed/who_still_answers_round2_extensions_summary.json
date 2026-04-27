@@ -1,0 +1,17 @@
+{
+  "timing_acceleration": {},
+  "studentized_randomization": {
+    "actual_coef": 0.005759913227238719,
+    "actual_tstat": 1.137495509832502,
+    "coef_randomization_pval": 0.5338834708677169,
+    "tstat_randomization_pval": 0.5291322830707677,
+    "draws": 3999
+  },
+  "collapsed_tag_check": {
+    "actual_coef": 0.005334469695411448,
+    "actual_tstat": 0.8432064239543599,
+    "coef_randomization_pval": 0.5591397849462365,
+    "tstat_randomization_pval": 0.6259064766191548,
+    "n_tags": 16
+  }
+}

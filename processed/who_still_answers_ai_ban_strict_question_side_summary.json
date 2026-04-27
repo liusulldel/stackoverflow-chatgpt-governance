@@ -1,0 +1,233 @@
+{
+  "design": "strict question-side AI-ban timing",
+  "windows": [
+    30,
+    45,
+    60
+  ],
+  "donuts": [
+    0,
+    3,
+    7
+  ],
+  "counts": [
+    {
+      "sample": "all_tags",
+      "window_days": 30,
+      "donut_days": 0,
+      "n_questions": 662,
+      "n_hits": 40,
+      "pre_hits": 10,
+      "post_hits": 30
+    },
+    {
+      "sample": "all_tags",
+      "window_days": 30,
+      "donut_days": 3,
+      "n_questions": 590,
+      "n_hits": 37,
+      "pre_hits": 7,
+      "post_hits": 30
+    },
+    {
+      "sample": "all_tags",
+      "window_days": 45,
+      "donut_days": 0,
+      "n_questions": 1029,
+      "n_hits": 60,
+      "pre_hits": 11,
+      "post_hits": 49
+    },
+    {
+      "sample": "all_tags",
+      "window_days": 45,
+      "donut_days": 3,
+      "n_questions": 957,
+      "n_hits": 57,
+      "pre_hits": 8,
+      "post_hits": 49
+    },
+    {
+      "sample": "all_tags",
+      "window_days": 45,
+      "donut_days": 7,
+      "n_questions": 865,
+      "n_hits": 49,
+      "pre_hits": 7,
+      "post_hits": 42
+    },
+    {
+      "sample": "all_tags",
+      "window_days": 60,
+      "donut_days": 0,
+      "n_questions": 1399,
+      "n_hits": 89,
+      "pre_hits": 14,
+      "post_hits": 75
+    },
+    {
+      "sample": "all_tags",
+      "window_days": 60,
+      "donut_days": 3,
+      "n_questions": 1327,
+      "n_hits": 86,
+      "pre_hits": 11,
+      "post_hits": 75
+    },
+    {
+      "sample": "all_tags",
+      "window_days": 60,
+      "donut_days": 7,
+      "n_questions": 1235,
+      "n_hits": 78,
+      "pre_hits": 10,
+      "post_hits": 68
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 30,
+      "donut_days": 0,
+      "n_questions": 404,
+      "n_hits": 35,
+      "pre_hits": 8,
+      "post_hits": 27
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 30,
+      "donut_days": 3,
+      "n_questions": 363,
+      "n_hits": 32,
+      "pre_hits": 5,
+      "post_hits": 27
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 45,
+      "donut_days": 0,
+      "n_questions": 625,
+      "n_hits": 53,
+      "pre_hits": 9,
+      "post_hits": 44
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 45,
+      "donut_days": 3,
+      "n_questions": 584,
+      "n_hits": 50,
+      "pre_hits": 6,
+      "post_hits": 44
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 45,
+      "donut_days": 7,
+      "n_questions": 515,
+      "n_hits": 42,
+      "pre_hits": 5,
+      "post_hits": 37
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 60,
+      "donut_days": 0,
+      "n_questions": 860,
+      "n_hits": 77,
+      "pre_hits": 12,
+      "post_hits": 65
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 60,
+      "donut_days": 3,
+      "n_questions": 819,
+      "n_hits": 74,
+      "pre_hits": 9,
+      "post_hits": 65
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 60,
+      "donut_days": 7,
+      "n_questions": 750,
+      "n_hits": 66,
+      "pre_hits": 8,
+      "post_hits": 58
+    }
+  ],
+  "best_rows": [
+    {
+      "sample": "high_tags_only",
+      "window_days": 45,
+      "donut_days": 0,
+      "outcome": "first_answer_1d",
+      "coef": -0.29518924375420796,
+      "se": 0.11863703707968132,
+      "pval": 0.012840195211023465,
+      "n_hits": 53,
+      "nobs": 625,
+      "mean_outcome": 0.5632
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 60,
+      "donut_days": 3,
+      "outcome": "accepted_30d",
+      "coef": -0.23933803353286331,
+      "se": 0.10382302328031413,
+      "pval": 0.021152571137478933,
+      "n_hits": 74,
+      "nobs": 819,
+      "mean_outcome": 0.19047619047619047
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 45,
+      "donut_days": 3,
+      "outcome": "accepted_30d",
+      "coef": -0.263309000174757,
+      "se": 0.1286911127629949,
+      "pval": 0.04075103198543162,
+      "n_hits": 50,
+      "nobs": 584,
+      "mean_outcome": 0.1832191780821918
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 60,
+      "donut_days": 7,
+      "outcome": "accepted_30d",
+      "coef": -0.3048531701256282,
+      "se": 0.14908210102752473,
+      "pval": 0.04086790501387558,
+      "n_hits": 66,
+      "nobs": 750,
+      "mean_outcome": 0.18933333333333333
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 30,
+      "donut_days": 3,
+      "outcome": "accepted_30d",
+      "coef": -0.32967488576204396,
+      "se": 0.17610156947442016,
+      "pval": 0.061196589406979585,
+      "n_hits": 32,
+      "nobs": 363,
+      "mean_outcome": 0.18732782369146006
+    },
+    {
+      "sample": "high_tags_only",
+      "window_days": 60,
+      "donut_days": 0,
+      "outcome": "accepted_30d",
+      "coef": -0.22329279349172038,
+      "se": 0.12315759237658125,
+      "pval": 0.06982170486831409,
+      "n_hits": 77,
+      "nobs": 860,
+      "mean_outcome": 0.19186046511627908
+    }
+  ]
+}

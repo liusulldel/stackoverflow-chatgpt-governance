@@ -1,0 +1,28 @@
+{
+  "timing_gate": {
+    "pass": false,
+    "actual_rank_vs_pre_breaks": 30,
+    "n_pre_breaks": 29,
+    "share_significant_pre_breaks": 1.0,
+    "safe_language": "ChatGPT-period differential exposure"
+  },
+  "few_cluster_gate": {
+    "pass": false,
+    "cr2_pval": 0.0057359641101837,
+    "wild_cluster_bootstrap_pval": 0.0726817042606516,
+    "randomization_pval": 0.064128256513026,
+    "leave_two_out_positive_share": 1.0
+  },
+  "composition_gate": {
+    "pass": true,
+    "baseline_coef": 0.062212448101730766,
+    "full_bundle_coef": 0.05511929776536354,
+    "absolute_retained_share": 0.8859850310862483,
+    "positive_shape_bins": 4,
+    "brand_new_platform_coef": 0.0699217254272254
+  },
+  "week2_decision": {
+    "submission_safe_now": false,
+    "headline_survives_as_bounded_claim": true
+  }
+}

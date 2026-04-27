@@ -1,0 +1,28 @@
+{
+  "n_role_rows": 5050958,
+  "n_tag_month_role_cells": 4636,
+  "profile_coverage_share": 0.9999988121065351,
+  "primary_outcome": "recent_entrant_90d_share",
+  "key_results_with_complexity": {
+    "first_answer": {
+      "coef": 0.024480674385749093,
+      "pval": 0.0017155198438321838,
+      "mean_outcome": 0.4595268381983999
+    },
+    "first_positive": {
+      "coef": 0.028083389825450594,
+      "pval": 0.0022176561744763684,
+      "mean_outcome": 0.38993934064061275
+    },
+    "top_score": {
+      "coef": 0.02721839621080982,
+      "pval": 0.0003327456864283597,
+      "mean_outcome": 0.44751506511185773
+    },
+    "accepted_current": {
+      "coef": 0.016868604388188345,
+      "pval": 0.061677796888180654,
+      "mean_outcome": 0.3906515876902335
+    }
+  }
+}

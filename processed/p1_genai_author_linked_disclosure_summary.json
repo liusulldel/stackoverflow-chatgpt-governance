@@ -1,0 +1,64 @@
+{
+  "n_events": 2682,
+  "n_users": 2342,
+  "n_questions": 2407,
+  "n_answer_side_events": 343,
+  "n_comment_side_events": 608,
+  "role_counts": {
+    "asker": 1731,
+    "answerer": 343,
+    "answer_commenter": 309,
+    "question_commenter": 299
+  },
+  "surface_counts": {
+    "question_body": 1625,
+    "answer_body": 343,
+    "answer_comment": 309,
+    "question_comment": 299,
+    "title": 106
+  },
+  "top_tool_families": [
+    [
+      "chatgpt",
+      1568
+    ],
+    [
+      "openai",
+      703
+    ],
+    [
+      "gpt_family",
+      333
+    ],
+    [
+      "ai_generated",
+      164
+    ],
+    [
+      "llm",
+      160
+    ],
+    [
+      "gemini",
+      128
+    ],
+    [
+      "copilot",
+      96
+    ],
+    [
+      "claude",
+      44
+    ],
+    [
+      "deepseek",
+      9
+    ],
+    [
+      "anthropic",
+      7
+    ]
+  ],
+  "n_user_months": 2464,
+  "n_repeat_direct_ai_user_months": 122
+}

@@ -1,0 +1,224 @@
+{
+  "archive_metadata": {
+    "archive_cutoff_iso": "2023-03-05T06:02:46.817000+00:00",
+    "archive_cutoff_for_7d_iso": "2023-02-26T06:02:46.817000+00:00",
+    "archive_cutoff_for_30d_iso": "2023-02-03T06:02:46.817000+00:00",
+    "archive_cutoff_for_1d_iso": "2023-03-04T06:02:46.817000+00:00",
+    "rows": 2074115
+  },
+  "exposure_diagnostics": {
+    "mean_exposure_high_tags": 0.7845272204692157,
+    "mean_exposure_low_tags": -0.7845272204692157,
+    "correlation_with_manual_high": 0.7845272204692159,
+    "top_exposure_tags": [
+      {
+        "tag": "regex",
+        "exposure_index": 1.6573073296784941
+      },
+      {
+        "tag": "pandas",
+        "exposure_index": 1.1493993062473233
+      },
+      {
+        "tag": "numpy",
+        "exposure_index": 0.8626457974180449
+      },
+      {
+        "tag": "sql",
+        "exposure_index": 0.8127371844006236
+      },
+      {
+        "tag": "apache-spark",
+        "exposure_index": 0.6785814699695615
+      }
+    ],
+    "bottom_exposure_tags": [
+      {
+        "tag": "docker",
+        "exposure_index": -2.067518990036933
+      },
+      {
+        "tag": "kubernetes",
+        "exposure_index": -1.5867667726106391
+      },
+      {
+        "tag": "multithreading",
+        "exposure_index": -1.0198880283282128
+      },
+      {
+        "tag": "firebase",
+        "exposure_index": -0.8269317640104322
+      },
+      {
+        "tag": "android",
+        "exposure_index": -0.5824723369899437
+      }
+    ]
+  },
+  "model_results": {
+    "archive_primary_binary": {
+      "outcome": "accepted_archive_rate",
+      "weight_col": "n_questions",
+      "term": "high_post",
+      "summary": {
+        "coef": -0.004468740724570054,
+        "se": 0.004261380912696307,
+        "pval": 0.29433452047987674,
+        "nobs": 624.0,
+        "r2": 0.9808946347013614
+      },
+      "formula": "accepted_archive_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "archive_primary_continuous": {
+      "outcome": "accepted_archive_rate",
+      "weight_col": "n_questions",
+      "term": "exposure_post",
+      "summary": {
+        "coef": -0.004356186380463414,
+        "se": 0.003829323240958729,
+        "pval": 0.25529319102924286,
+        "nobs": 624.0,
+        "r2": 0.9809296322668306
+      },
+      "formula": "accepted_archive_rate ~ exposure_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "accepted_7d_primary_binary": {
+      "outcome": "accepted_7d_rate",
+      "weight_col": "accepted_7d_denom",
+      "term": "high_post",
+      "summary": {
+        "coef": -0.012092987042173722,
+        "se": 0.0036735110611535726,
+        "pval": 0.0009949796636910665,
+        "nobs": 608.0,
+        "r2": 0.9815916443002192
+      },
+      "formula": "accepted_7d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "accepted_7d_primary_continuous": {
+      "outcome": "accepted_7d_rate",
+      "weight_col": "accepted_7d_denom",
+      "term": "exposure_post",
+      "summary": {
+        "coef": -0.008369265858708478,
+        "se": 0.003556473076068829,
+        "pval": 0.018610179330347813,
+        "nobs": 608.0,
+        "r2": 0.9816313693265091
+      },
+      "formula": "accepted_7d_rate ~ exposure_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "accepted_30d_primary_binary": {
+      "outcome": "accepted_30d_rate",
+      "weight_col": "accepted_30d_denom",
+      "term": "high_post",
+      "summary": {
+        "coef": -0.008610657085701441,
+        "se": 0.0050004530305164056,
+        "pval": 0.08507397564945071,
+        "nobs": 608.0,
+        "r2": 0.9800251811592802
+      },
+      "formula": "accepted_30d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "accepted_30d_primary_continuous": {
+      "outcome": "accepted_30d_rate",
+      "weight_col": "accepted_30d_denom",
+      "term": "exposure_post",
+      "summary": {
+        "coef": -0.006783121832207174,
+        "se": 0.0030798377703768766,
+        "pval": 0.027635069416490955,
+        "nobs": 608.0,
+        "r2": 0.9800697207343955
+      },
+      "formula": "accepted_30d_rate ~ exposure_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "first_answer_1d_primary_binary": {
+      "outcome": "first_answer_1d_rate",
+      "weight_col": "first_answer_1d_denom",
+      "term": "high_post",
+      "summary": {
+        "coef": -0.029448355508326654,
+        "se": 0.011295766957539657,
+        "pval": 0.009133248728369733,
+        "nobs": 624.0,
+        "r2": 0.983808682658339
+      },
+      "formula": "first_answer_1d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "accepted_7d_fractional_binary": {
+      "outcome": "accepted_7d_rate",
+      "weight_col": "accepted_7d_denom",
+      "term": "high_post",
+      "summary": {
+        "coef": -0.013809795972802942,
+        "se": 0.004020398531132331,
+        "pval": 0.0005927023148304127,
+        "nobs": 608.0,
+        "r2": 0.9842745640026884
+      },
+      "formula": "accepted_7d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)"
+    },
+    "accepted_30d_fractional_binary": {
+      "outcome": "accepted_30d_rate",
+      "weight_col": "accepted_30d_denom",
+      "term": "high_post",
+      "summary": {
+        "coef": -0.009041047769973195,
+        "se": 0.004572896902806764,
+        "pval": 0.04803098756380065,
+        "nobs": 608.0,
+        "r2": 0.9831144612437237
+      },
+      "formula": "accepted_30d_rate ~ high_post + C(tag):time_index + C(tag) + C(month_id)"
+    }
+  },
+  "event_study_summary": {
+    "n_coefficients": 20,
+    "pre_period_significant_months": [
+      -18,
+      -17,
+      -16,
+      -15,
+      -14,
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2
+    ],
+    "post_period_coefficients": [
+      {
+        "rel_month": 0,
+        "coef": 0.035676334142224896,
+        "pval": 3.972689816556043e-06
+      },
+      {
+        "rel_month": 1,
+        "coef": 0.03972709011731948,
+        "pval": 3.469290801517384e-05
+      },
+      {
+        "rel_month": 2,
+        "coef": 0.035652442728981965,
+        "pval": 3.163721209511925e-05
+      }
+    ]
+  },
+  "placebo_grid_summary": {
+    "n_months": 33,
+    "pre_shock_significant_months": [
+      "2022-10",
+      "2022-11"
+    ],
+    "min_pre_shock_pval": 0.001692404903622229
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "selected_tags": [
+    "awk",
+    "bash",
+    "boot",
+    "command-line",
+    "drivers",
+    "filesystems",
+    "find",
+    "grep",
+    "kernel",
+    "networking",
+    "partition",
+    "permissions",
+    "regular-expression",
+    "sed",
+    "shell-script",
+    "ssh",
+    "systemd",
+    "text-processing",
+    "wifi",
+    "zsh"
+  ],
+  "n_question_rows": 31629,
+  "n_single_focal_questions": 23050,
+  "n_panel_rows": 1391,
+  "n_tags": 20,
+  "results": [
+    {
+      "specification": "post_residualization",
+      "outcome": "predicted_exposure_mean",
+      "coef": 0.023358642142716695,
+      "cluster_se": 0.01096821467835999,
+      "cluster_pval": 0.03319913567436145,
+      "nobs": 1391,
+      "n_tags": 20
+    },
+    {
+      "specification": "post_gap",
+      "outcome": "response_cert_gap",
+      "coef": -0.008067194350685761,
+      "cluster_se": 0.02492530269020608,
+      "cluster_pval": 0.7461993796935007,
+      "nobs": 1379,
+      "n_tags": 20
+    },
+    {
+      "specification": "post_accepted30",
+      "outcome": "accepted_30d_rate",
+      "coef": 0.017434599551020585,
+      "cluster_se": 0.018579295477063256,
+      "cluster_pval": 0.3480447290685118,
+      "nobs": 1379,
+      "n_tags": 20
+    },
+    {
+      "specification": "external_gap",
+      "outcome": "response_cert_gap",
+      "coef": 0.0011183872545254205,
+      "cluster_se": 0.025536632117525753,
+      "cluster_pval": 0.9650674864605944,
+      "nobs": 1379,
+      "n_tags": 20
+    },
+    {
+      "specification": "external_accepted30",
+      "outcome": "accepted_30d_rate",
+      "coef": -0.024899090390066932,
+      "cluster_se": 0.03315080450706071,
+      "cluster_pval": 0.4526011686859691,
+      "nobs": 1379,
+      "n_tags": 20
+    },
+    {
+      "specification": "external_first1d",
+      "outcome": "first_answer_1d_rate",
+      "coef": -0.023942077238938406,
+      "cluster_se": 0.02808622936265618,
+      "cluster_pval": 0.39396495148553823,
+      "nobs": 1391,
+      "n_tags": 20
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "inference": {
+    "durability_return_365d": {
+      "coef": -0.026581652645735202,
+      "cluster_pval": 0.00043004938150928873,
+      "cr2_pval": 0.004674982692854856,
+      "wild_pval": 0.06516290726817042,
+      "randomization_pval": 0.12424849699398798
+    },
+    "durability_one_shot_365d": {
+      "coef": 0.02658165264573497,
+      "cluster_pval": 0.0004300493815093314,
+      "cr2_pval": 0.004674982692815917,
+      "wild_pval": 0.08020050125313283,
+      "randomization_pval": 0.09819639278557114
+    },
+    "role_first_positive_recent90": {
+      "coef": 0.02808338982545063,
+      "cluster_pval": 0.002217656174476346,
+      "cr2_pval": 0.010799036343224133,
+      "wild_pval": 0.02756892230576441,
+      "randomization_pval": 0.01002004008016032
+    },
+    "role_top_score_recent90": {
+      "coef": 0.02721839621080983,
+      "cluster_pval": 0.00033274568642835823,
+      "cr2_pval": 0.004158696379619899,
+      "wild_pval": 0.017543859649122806,
+      "randomization_pval": 0.008016032064128256
+    },
+    "role_asymmetry_first_positive_vs_accepted": {
+      "coef": 0.0049052599544517905,
+      "cluster_pval": 0.04227594898179716,
+      "cr2_pval": 0.09634371156098942,
+      "wild_pval": 0.518796992481203,
+      "randomization_pval": 0.03406813627254509
+    },
+    "bridge_accepted_vote_30d_gap": {
+      "coef": -0.07522612017702003,
+      "cluster_pval": 0.001852076756397977,
+      "cr2_pval": 0.006613691342904728,
+      "wild_pval": 0.007518796992481203,
+      "randomization_pval": NaN
+    },
+    "bridge_first_positive_latency_gap": {
+      "coef": 283.903618316414,
+      "cluster_pval": 0.003920754358492048,
+      "cr2_pval": 0.012364773026417053,
+      "wild_pval": 0.010025062656641603,
+      "randomization_pval": NaN
+    }
+  },
+  "timing": {
+    "bridge_accepted_vote_30d_gap": {
+      "actual_directional_coef": 5.793201014745179e-05,
+      "rank_vs_pre": 16,
+      "n_pre_breaks": 29,
+      "share_significant_pre_breaks": 0.3448275862068966
+    },
+    "bridge_first_positive_latency_gap": {
+      "actual_directional_coef": 7.807572068353051e-06,
+      "rank_vs_pre": 16,
+      "n_pre_breaks": 29,
+      "share_significant_pre_breaks": 0.27586206896551724
+    },
+    "durability_one_shot_365d": {
+      "actual_directional_coef": 0.0006164402139139291,
+      "rank_vs_pre": 28,
+      "n_pre_breaks": 29,
+      "share_significant_pre_breaks": 0.7586206896551724
+    },
+    "durability_return_365d": {
+      "actual_directional_coef": 0.0006164402139124281,
+      "rank_vs_pre": 28,
+      "n_pre_breaks": 29,
+      "share_significant_pre_breaks": 0.7586206896551724
+    },
+    "role_asymmetry_first_positive_vs_accepted": {
+      "actual_directional_coef": 0.0009966404837676852,
+      "rank_vs_pre": 30,
+      "n_pre_breaks": 29,
+      "share_significant_pre_breaks": 0.8275862068965517
+    },
+    "role_first_positive_recent90": {
+      "actual_directional_coef": 0.0015493070180004828,
+      "rank_vs_pre": 30,
+      "n_pre_breaks": 29,
+      "share_significant_pre_breaks": 0.9655172413793104
+    },
+    "role_top_score_recent90": {
+      "actual_directional_coef": 0.0008790786880164273,
+      "rank_vs_pre": 30,
+      "n_pre_breaks": 29,
+      "share_significant_pre_breaks": 0.7586206896551724
+    }
+  },
+  "construct_sensitivity": {
+    "bridge_construct_variant": [
+      {
+        "family": "bridge_construct_variant",
+        "role": "accepted_cond_any_answer_30d_rate",
+        "outcome": "first_recent_share",
+        "coef": -0.0514304171780461,
+        "pval": 5.854074445499955e-05
+      },
+      {
+        "family": "bridge_construct_variant",
+        "role": "accepted_cond_any_answer_30d_rate",
+        "outcome": "recent_gap_first_vs_accepted",
+        "coef": -0.0703847066586275,
+        "pval": 0.0509465057217233
+      },
+      {
+        "family": "bridge_construct_variant",
+        "role": "accepted_cond_any_answer_30d_rate",
+        "outcome": "accepted_incumbent_share",
+        "coef": -0.0097518719543858,
+        "pval": 0.6691936640639519
+      },
+      {
+        "family": "bridge_construct_variant",
+        "role": "accepted_vote_30d_rate",
+        "outcome": "first_recent_share",
+        "coef": 0.0007696934515288,
+        "pval": 0.919092758021792
+      },
+      {
+        "family": "bridge_construct_variant",
+        "role": "accepted_vote_30d_rate",
+        "outcome": "recent_gap_first_vs_accepted",
+        "coef": -0.0752261201770205,
+        "pval": 0.0018520767563979
+      },
+      {
+        "family": "bridge_construct_variant",
+        "role": "accepted_vote_30d_rate",
+        "outcome": "accepted_incumbent_share",
+        "coef": -0.0005385698925902,
+        "pval": 0.9603416187782008
+      }
+    ],
+    "role_recent_window": [
+      {
+        "family": "role_recent_window",
+        "role": "first_positive",
+        "outcome": "recent_entrant_30d_share",
+        "coef": 0.009944345439388672,
+        "pval": 0.3412538543452476
+      },
+      {
+        "family": "role_recent_window",
+        "role": "top_score",
+        "outcome": "recent_entrant_30d_share",
+        "coef": 0.009540856802091583,
+        "pval": 0.32255803529694405
+      },
+      {
+        "family": "role_recent_window",
+        "role": "accepted_current",
+        "outcome": "recent_entrant_30d_share",
+        "coef": -0.0028205617449481727,
+        "pval": 0.7707087451346648
+      },
+      {
+        "family": "role_recent_window",
+        "role": "first_positive",
+        "outcome": "recent_entrant_90d_share",
+        "coef": 0.02808338982545063,
+        "pval": 0.002217656174476346
+      },
+      {
+        "family": "role_recent_window",
+        "role": "top_score",
+        "outcome": "recent_entrant_90d_share",
+        "coef": 0.02721839621080983,
+        "pval": 0.00033274568642835823
+      },
+      {
+        "family": "role_recent_window",
+        "role": "accepted_current",
+        "outcome": "recent_entrant_90d_share",
+        "coef": 0.016868604388188355,
+        "pval": 0.061677796888180536
+      },
+      {
+        "family": "role_recent_window",
+        "role": "first_positive",
+        "outcome": "recent_entrant_365d_share",
+        "coef": 0.0534387414443905,
+        "pval": 0.014001367558281092
+      },
+      {
+        "family": "role_recent_window",
+        "role": "top_score",
+        "outcome": "recent_entrant_365d_share",
+        "coef": 0.043130166535819504,
+        "pval": 0.018835948788013042
+      },
+      {
+        "family": "role_recent_window",
+        "role": "accepted_current",
+        "outcome": "recent_entrant_365d_share",
+        "coef": 0.04843089807460759,
+        "pval": 0.045357823200505486
+      }
+    ]
+  }
+}

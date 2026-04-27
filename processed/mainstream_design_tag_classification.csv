@@ -1,0 +1,17 @@
+tag,group
+bash,high
+excel,high
+javascript,high
+numpy,high
+pandas,high
+python,high
+regex,high
+sql,high
+android,low
+apache-spark,low
+docker,low
+firebase,low
+kubernetes,low
+linux,low
+memory-management,low
+multithreading,low

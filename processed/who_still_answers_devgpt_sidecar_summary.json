@@ -1,0 +1,85 @@
+{
+  "data_source": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_devgpt_raw.zip",
+  "thread_sample_n": 321,
+  "thread_issue_n": 284,
+  "thread_discussion_n": 37,
+  "thread_repo_n": 258,
+  "pr_sample_n": 164,
+  "pr_repo_n": 129,
+  "thread_updated_7d_mean": 0.616822429906542,
+  "thread_closed_30d_mean": 0.3426791277258567,
+  "thread_closed_90d_mean": 0.3894080996884735,
+  "thread_gap_mean": 0.27414330218068533,
+  "thread_context_heavy_share": 0.5015576323987538,
+  "thread_median_ai_tokens": 1040.0,
+  "thread_context_split": [
+    {
+      "context_heavy": 0,
+      "n": 160,
+      "updated_7d": 0.61875,
+      "closed_30d": 0.30625,
+      "closed_90d": 0.3625,
+      "response_close_gap_30d": 0.3125
+    },
+    {
+      "context_heavy": 1,
+      "n": 161,
+      "updated_7d": 0.6149068322981367,
+      "closed_30d": 0.37888198757763975,
+      "closed_90d": 0.4161490683229814,
+      "response_close_gap_30d": 0.2360248447204969
+    }
+  ],
+  "pr_merged_30d_mean": 0.676829268292683,
+  "pr_merged_7d_mean": 0.5548780487804879,
+  "headline_coefficients": {
+    "thread_closed_30d_context_heavy": {
+      "setting": "devgpt_thread",
+      "sample": "issue_discussion_all",
+      "outcome": "closed_30d",
+      "predictor": "context_heavy",
+      "coef": 0.11015416983137014,
+      "se": 0.06595300566128595,
+      "pval": 0.09488142010138904,
+      "nobs": 321,
+      "n_repos": 258,
+      "n_months": 23
+    },
+    "thread_gap_context_heavy": {
+      "setting": "devgpt_thread",
+      "sample": "issue_discussion_all",
+      "outcome": "response_close_gap_30d",
+      "predictor": "context_heavy",
+      "coef": -0.04167548661272796,
+      "se": 0.08658112459339194,
+      "pval": 0.6302705381674119,
+      "nobs": 321,
+      "n_repos": 258,
+      "n_months": 23
+    },
+    "thread_closed_given_updated_context_heavy": {
+      "setting": "devgpt_thread",
+      "sample": "issue_only_updated",
+      "outcome": "closed_30d_given_updated",
+      "predictor": "context_heavy",
+      "coef": 0.13723597551762723,
+      "se": 0.09673758703764435,
+      "pval": 0.15600350027645998,
+      "nobs": 170,
+      "n_repos": 141,
+      "n_months": 4
+    },
+    "pr_merged_30d_context_heavy": {
+      "setting": "devgpt_pr_support",
+      "sample": "pr_all",
+      "outcome": "merged_30d",
+      "predictor": "context_heavy",
+      "coef": 0.22911060931501376,
+      "se": 0.10346035628525765,
+      "pval": 0.02679596331268871,
+      "nobs": 164,
+      "n_repos": 129,
+      "n_months": 7
+    }
+  }
+}

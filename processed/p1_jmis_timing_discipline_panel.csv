@@ -1,0 +1,5 @@
+layer,outcome,pretrend_term,pretrend_coef,pretrend_pval,promoted_term,promoted_coef,promoted_pval,pre_clusters,full_clusters
+queue,residual_queue_complexity_index_mean,high_tag:time_index,-0.00027828158587402504,0.6662093360027899,high_post,0.05512033694139709,3.1566985404996976e-05,16,16
+resorting,brand_new_platform_share,high_tag:time_index,0.0010239880379832188,0.14073134895437428,high_post,0.030050089450070705,0.0006885073473170871,16,16
+response,first_answer_1d_rate_closure,high_tag:time_index,0.00131259275417684,8.464826815448136e-06,high_post,-0.03253075449220413,0.001914102180839473,16,16
+settlement,accepted_vote_30d_rate,high_tag:time_index,0.00028346845099794834,0.13818385233801506,high_post,0.009133906533247872,0.0015983037997761972,16,16

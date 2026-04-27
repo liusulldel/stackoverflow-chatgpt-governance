@@ -1,0 +1,73 @@
+{
+  "total_questions": 2322009,
+  "disclosed_ai_questions": 9996,
+  "disclosed_ai_share": 0.004304892875092215,
+  "question_title_hits": 1244,
+  "question_body_hits": 7229,
+  "answer_body_hits": 2340,
+  "question_comment_hits": 1613,
+  "answer_comment_hits": 1365,
+  "any_comment_hits": 2869,
+  "non_title_thread_additions": 8752,
+  "pre_chatgpt_hits": 1001,
+  "post_chatgpt_hits": 8995,
+  "pre_ban_hits": 1021,
+  "post_ban_hits": 8975,
+  "comments_xml_available": true,
+  "top_patterns": [
+    [
+      "chatgpt",
+      5912
+    ],
+    [
+      "openai",
+      4458
+    ],
+    [
+      "llm",
+      2465
+    ],
+    [
+      "gpt_family",
+      1459
+    ],
+    [
+      "gemini",
+      980
+    ],
+    [
+      "copilot",
+      636
+    ],
+    [
+      "claude",
+      318
+    ],
+    [
+      "ai_generated",
+      307
+    ],
+    [
+      "deepseek",
+      90
+    ],
+    [
+      "anthropic",
+      87
+    ]
+  ],
+  "top_tags": {
+    "python": 5160,
+    "javascript": 2001,
+    "android": 697,
+    "excel": 282,
+    "docker": 252,
+    "sql": 222,
+    "firebase": 159,
+    "regex": 105,
+    "linux": 103,
+    "bash": 66,
+    "kubernetes": 56,
+    "multithreading": 42
+  }
+}

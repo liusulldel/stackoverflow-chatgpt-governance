@@ -1,0 +1,106 @@
+{
+  "incumbent_mean_log_answers": {
+    "outcome": "mean_log_answers",
+    "weight_col": "n_user_tag_pairs",
+    "formula": "mean_log_answers ~ exposure_post + expert_post + exposure_expert + exposure_post_expert + C(primary_tag) + C(month_id)",
+    "term": "exposure_post_expert",
+    "summary": {
+      "coef": -0.33428245316119853,
+      "se": 0.19644316132630332,
+      "pval": 0.0888162744461081,
+      "nobs": 2304.0,
+      "r2": 0.542216457855518
+    }
+  },
+  "incumbent_share_active": {
+    "outcome": "share_active",
+    "weight_col": "n_user_tag_pairs",
+    "formula": "share_active ~ exposure_post + expert_post + exposure_expert + exposure_post_expert + C(primary_tag) + C(month_id)",
+    "term": "exposure_post_expert",
+    "summary": {
+      "coef": -0.17818590699320824,
+      "se": 0.11074308095674698,
+      "pval": 0.10761576954963287,
+      "nobs": 2304.0,
+      "r2": 0.6405923998578524
+    }
+  },
+  "expert_answer_share": {
+    "outcome": "expert_answer_share",
+    "weight_col": "n_answers",
+    "formula": "expert_answer_share ~ exposure_post + C(primary_tag) + C(month_id)",
+    "term": "exposure_post",
+    "summary": {
+      "coef": -0.005986797110690194,
+      "se": 0.01628953881639183,
+      "pval": 0.713228163495188,
+      "nobs": 1146.0,
+      "r2": 0.9478560287187661
+    }
+  },
+  "novice_entry_share": {
+    "outcome": "novice_entry_share",
+    "weight_col": "n_new_answerers",
+    "formula": "novice_entry_share ~ exposure_post + C(primary_tag) + C(month_id)",
+    "term": "exposure_post",
+    "summary": {
+      "coef": 0.005759913227238728,
+      "se": 0.005063679968360383,
+      "pval": 0.25533120060425696,
+      "nobs": 1145.0,
+      "r2": 0.9397713357091652
+    }
+  },
+  "first_answer_1d": {
+    "outcome": "first_answer_1d_rate",
+    "weight_col": "first_answer_1d_denom",
+    "formula": "first_answer_1d_rate ~ exposure_post + C(primary_tag) + C(month_id)",
+    "term": "exposure_post",
+    "summary": {
+      "coef": 0.0031247141114796027,
+      "se": 0.008810932044782935,
+      "pval": 0.7228588660142905,
+      "nobs": 1147.0,
+      "r2": 0.9449769804135941
+    }
+  },
+  "accepted_7d": {
+    "outcome": "accepted_7d_rate",
+    "weight_col": "accepted_7d_denom",
+    "formula": "accepted_7d_rate ~ exposure_post + C(primary_tag) + C(month_id)",
+    "term": "exposure_post",
+    "summary": {
+      "coef": 0.008967157367125117,
+      "se": 0.00405151258185423,
+      "pval": 0.02687791224980354,
+      "nobs": 1147.0,
+      "r2": 0.6236915902328986
+    }
+  },
+  "accepted_30d": {
+    "outcome": "accepted_30d_rate",
+    "weight_col": "accepted_30d_denom",
+    "formula": "accepted_30d_rate ~ exposure_post + C(primary_tag) + C(month_id)",
+    "term": "exposure_post",
+    "summary": {
+      "coef": 0.011364255806209646,
+      "se": 0.00452786778508671,
+      "pval": 0.012078344890830348,
+      "nobs": 1140.0,
+      "r2": 0.6025535286105662
+    }
+  },
+  "postshock_presence": {
+    "outcome": "any_postshock_answer",
+    "weight_col": null,
+    "formula": "any_postshock_answer ~ is_expert + exposure_expert + C(primary_tag)",
+    "term": "exposure_expert",
+    "summary": {
+      "coef": 0.04845493681455592,
+      "se": 0.020610383258698257,
+      "pval": 0.018723215071773026,
+      "nobs": 52363.0,
+      "r2": 0.07104365737473428
+    }
+  }
+}

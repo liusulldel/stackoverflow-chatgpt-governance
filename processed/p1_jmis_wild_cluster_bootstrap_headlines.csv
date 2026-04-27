@@ -1,0 +1,4 @@
+spec_id,outcome,term,weight_col,nobs,clusters,b_hat,B,seed,p_wild_abs,boot_q025,boot_q50,boot_q975
+queue_residual_complexity,residual_queue_complexity_index_mean,high_post,n_questions,1147,16,0.05512033694139639,3999,20260404,0.008252063015753939,-0.048509123765662715,0.00014706870253320385,0.04851125377864906
+resort_brand_new_share,brand_new_platform_share,high_post,n_new_answerers_profiles,1145,16,0.030050089450070896,3999,20260404,0.0042510627656914225,-0.024454296577622832,7.504832054178602e-05,0.02474505212642792
+consequence_first_answer_1d_closure,first_answer_1d_rate_closure,high_post,first_answer_1d_denom_closure,1147,16,-0.03253075449219522,3999,20260404,0.056514128532133036,-0.033363409764428364,-2.3658064614974107e-05,0.03298122671412426

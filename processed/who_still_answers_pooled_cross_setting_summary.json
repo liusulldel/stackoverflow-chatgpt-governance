@@ -1,0 +1,72 @@
+{
+  "n_rows": 3947,
+  "n_clusters": 56,
+  "n_settings": 3,
+  "settings": [
+    "stackoverflow",
+    "superuser",
+    "unix"
+  ],
+  "promoted_read": [
+    {
+      "outcome": "response_cert_gap",
+      "term": "exposure_index:post_chatgpt",
+      "coef": -0.0060329916580961936,
+      "cluster_se": 0.0046888238221981,
+      "cluster_pval": 0.19820764486049458,
+      "nobs": 3912,
+      "n_clusters": 56,
+      "n_settings": 3
+    },
+    {
+      "outcome": "response_cert_gap",
+      "term": "exposure_index:chatgpt_z",
+      "coef": -0.0025270001853424876,
+      "cluster_se": 0.0022622180552266382,
+      "cluster_pval": 0.2639749304261789,
+      "nobs": 3912,
+      "n_clusters": 56,
+      "n_settings": 3
+    },
+    {
+      "outcome": "accepted_30d_rate",
+      "term": "exposure_index:post_chatgpt",
+      "coef": 0.0024757177426748336,
+      "cluster_se": 0.0034289306413270502,
+      "cluster_pval": 0.47028913080876833,
+      "nobs": 3912,
+      "n_clusters": 56,
+      "n_settings": 3
+    },
+    {
+      "outcome": "accepted_30d_rate",
+      "term": "exposure_index:chatgpt_z",
+      "coef": 0.0010280752958931223,
+      "cluster_se": 0.0016369121180368907,
+      "cluster_pval": 0.5299661276248546,
+      "nobs": 3912,
+      "n_clusters": 56,
+      "n_settings": 3
+    },
+    {
+      "outcome": "first_answer_1d_rate",
+      "term": "exposure_index:post_chatgpt",
+      "coef": -0.0035613165500591164,
+      "cluster_se": 0.004838010601060618,
+      "cluster_pval": 0.46166268004017663,
+      "nobs": 3945,
+      "n_clusters": 56,
+      "n_settings": 3
+    },
+    {
+      "outcome": "first_answer_1d_rate",
+      "term": "exposure_index:chatgpt_z",
+      "coef": -0.0015010227209486652,
+      "cluster_se": 0.002274440496841286,
+      "cluster_pval": 0.5092843037114256,
+      "nobs": 3945,
+      "n_clusters": 56,
+      "n_settings": 3
+    }
+  ]
+}

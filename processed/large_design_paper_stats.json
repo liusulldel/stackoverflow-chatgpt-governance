@@ -1,0 +1,251 @@
+{
+  "questions_raw_total": 373665,
+  "questions_analysis_total": 353645,
+  "unique_questions_analysis": 353645,
+  "unique_tags": 19,
+  "attrition": {
+    "raw_rows": 373665,
+    "analysis_rows": 353645,
+    "raw_unique_questions": 373665,
+    "analysis_unique_questions": 353645,
+    "dropped_multi_selected_rows": 20020,
+    "dropped_non_focal_rows": 20020
+  },
+  "baseline_log_questions": {
+    "coef": -0.006042757580934405,
+    "se": 0.026452881196884794,
+    "pval": 0.8193082687507575,
+    "nobs": 513.0,
+    "r2": 0.9864939862128937
+  },
+  "baseline_mean_log_views": {
+    "coef": 0.12473722266406263,
+    "se": 0.09010815516179259,
+    "pval": 0.16626490389081017,
+    "nobs": 513.0,
+    "r2": 0.9593579651553509
+  },
+  "segmented_log_questions": {
+    "level_break": {
+      "coef": 0.0027349608022119954,
+      "se": 0.030350044360731583,
+      "pval": 0.9281967051371328,
+      "nobs": 513.0,
+      "r2": 0.9864975653956952
+    },
+    "post_slope": {
+      "coef": -0.003641851956455647,
+      "se": 0.015891408316324695,
+      "pval": 0.8187359126023906,
+      "nobs": 513.0,
+      "r2": 0.9864975653956952
+    },
+    "pretrend_slope": {
+      "coef": 2.421566725518556e-05,
+      "se": 0.0008156506735938396,
+      "pval": 0.9763152662550746,
+      "nobs": 513.0,
+      "r2": 0.9864975653956952
+    }
+  },
+  "segmented_mean_log_views": {
+    "level_break": {
+      "coef": 0.029301695638557702,
+      "se": 0.015614027548682078,
+      "pval": 0.06056932232615823,
+      "nobs": 513.0,
+      "r2": 0.960437369347448
+    },
+    "post_slope": {
+      "coef": 0.024781568471024494,
+      "se": 0.030386231347743407,
+      "pval": 0.4147560972551517,
+      "nobs": 513.0,
+      "r2": 0.960437369347448
+    },
+    "pretrend_slope": {
+      "coef": 0.0032733386663652063,
+      "se": 0.0026858534988537033,
+      "pval": 0.22294549564284316,
+      "nobs": 513.0,
+      "r2": 0.960437369347448
+    }
+  },
+  "question_log_views": {
+    "coef": 0.12473722266405982,
+    "se": 0.08606274442096878,
+    "pval": 0.14723278111284266,
+    "nobs": 353645.0,
+    "r2": 0.2822959890183787
+  },
+  "policy_question_accepted": {
+    "coef": -0.018010362341682778,
+    "se": 0.015431079856221967,
+    "pval": 0.24315038786664178,
+    "nobs": 3166.0,
+    "r2": 0.04397788913079115
+  },
+  "event_study_tests": {
+    "mean_log_views": {
+      "pre_joint_pval": NaN,
+      "post_joint_pval": NaN
+    },
+    "log_questions": {
+      "pre_joint_pval": NaN,
+      "post_joint_pval": NaN
+    }
+  },
+  "exposure_diagnostics": {
+    "explained_variance_ratio": [
+      0.013006820514122015,
+      0.07742441578608897
+    ],
+    "top_positive_terms": [
+      "using",
+      "file",
+      "python",
+      "linux",
+      "error",
+      "memory",
+      "data",
+      "csv",
+      "excel",
+      "bash",
+      "spring",
+      "thread",
+      "multiple",
+      "value",
+      "vba"
+    ],
+    "top_negative_terms": [
+      "dynamic link",
+      "document id",
+      "stripe",
+      "firebase messaging",
+      "push notifications",
+      "using react",
+      "argument type",
+      "firebase user",
+      "time database",
+      "value firebase",
+      "firestore using",
+      "error response",
+      "facebook",
+      "document firestore",
+      "unhandled"
+    ],
+    "orientation_correlation_with_routine_share": 0.12815870851222652
+  },
+  "top_exposure_tags": [
+    "linux",
+    "csv",
+    "multithreading",
+    "bash",
+    "memory-management"
+  ],
+  "bottom_exposure_tags": [
+    "firebase",
+    "matplotlib",
+    "docker",
+    "entity-framework",
+    "android-studio"
+  ],
+  "placebo_break_tests": [
+    {
+      "outcome": "log_questions",
+      "placebo_month": "2022-07",
+      "level_coef": -0.004607807574627133,
+      "level_pval": 0.7239871366546011,
+      "slope_coef": -7.1105652771442254e-06,
+      "slope_pval": 0.9987861429407936
+    },
+    {
+      "outcome": "mean_log_views",
+      "placebo_month": "2022-07",
+      "level_coef": -0.01416619094944143,
+      "level_pval": 0.4092040288322337,
+      "slope_coef": 0.015348518363142261,
+      "slope_pval": 0.1806752590522538
+    },
+    {
+      "outcome": "log_questions",
+      "placebo_month": "2022-09",
+      "level_coef": 0.0034206003607680875,
+      "level_pval": 0.8359627911909804,
+      "slope_coef": -0.0006112926300911717,
+      "slope_pval": 0.9038516445062077
+    },
+    {
+      "outcome": "mean_log_views",
+      "placebo_month": "2022-09",
+      "level_coef": -0.024549792947875078,
+      "level_pval": 0.3585966080157722,
+      "slope_coef": 0.022249714246757528,
+      "slope_pval": 0.20280252251844788
+    },
+    {
+      "outcome": "log_questions",
+      "placebo_month": "2023-03",
+      "level_coef": -0.0049558127826248004,
+      "level_pval": 0.8231531178335947,
+      "slope_coef": -0.004955812782624211,
+      "slope_pval": 0.8231531178336153
+    },
+    {
+      "outcome": "mean_log_views",
+      "placebo_month": "2023-03",
+      "level_coef": 0.047837817613143735,
+      "level_pval": 0.2656953622671615,
+      "slope_coef": 0.04783781761314406,
+      "slope_pval": 0.26569536226715784
+    }
+  ],
+  "permutation_tests": [
+    {
+      "specification": "baseline_log_questions",
+      "observed_coef": -0.006042757580934405,
+      "abs_permutation_pval": 0.853,
+      "one_sided_pval": 0.4352,
+      "permutation_reps": 5000
+    },
+    {
+      "specification": "segmented_mean_log_views_level_break",
+      "observed_coef": 0.029301695638557702,
+      "abs_permutation_pval": 0.1562,
+      "one_sided_pval": 0.9306,
+      "permutation_reps": 5000
+    }
+  ],
+  "wild_cluster_bootstrap": [
+    {
+      "specification": "baseline_log_questions",
+      "term": "exposure_post",
+      "coef": -0.006042757580934405,
+      "cluster_se": 0.026452881196884794,
+      "cluster_pval": 0.8193082687507575,
+      "wild_cluster_pval": 0.8158158158158159,
+      "successful_draws": 999,
+      "reps_requested": 999
+    },
+    {
+      "specification": "segmented_mean_log_views_level_break",
+      "term": "exposure_index:post_chatgpt",
+      "coef": 0.029301695638557702,
+      "cluster_se": 0.015614027548682078,
+      "cluster_pval": 0.06056932232615823,
+      "wild_cluster_pval": 0.1841841841841842,
+      "successful_draws": 999,
+      "reps_requested": 999
+    },
+    {
+      "specification": "segmented_mean_log_views_post_slope",
+      "term": "exposure_index:time_post",
+      "coef": 0.024781568471024494,
+      "cluster_se": 0.030386231347743407,
+      "cluster_pval": 0.4147560972551517,
+      "wild_cluster_pval": 0.5265265265265265,
+      "successful_draws": 999,
+      "reps_requested": 999
+    }
+  ]
+}

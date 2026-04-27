@@ -1,0 +1,84 @@
+{
+  "selected_tags": [
+    "batch",
+    "batch-file",
+    "bash",
+    "cmd.exe",
+    "command-line",
+    "drivers",
+    "ethernet",
+    "filesystems",
+    "microsoft-excel",
+    "partitioning",
+    "permissions",
+    "port-forwarding",
+    "powershell",
+    "proxy",
+    "regex",
+    "routing",
+    "shell",
+    "ssl",
+    "wireless-networking",
+    "worksheet-function"
+  ],
+  "n_question_rows": 27212,
+  "n_single_focal_questions": 21644,
+  "n_panel_rows": 1409,
+  "n_tags": 20,
+  "results": [
+    {
+      "specification": "post_residualization",
+      "outcome": "predicted_exposure_mean",
+      "coef": 0.014463670984324517,
+      "cluster_se": 0.0074185677281605675,
+      "cluster_pval": 0.05121687830155618,
+      "nobs": 1409,
+      "n_tags": 20
+    },
+    {
+      "specification": "post_gap",
+      "outcome": "response_cert_gap",
+      "coef": 0.023486948578760842,
+      "cluster_se": 0.013550034387363871,
+      "cluster_pval": 0.08303352503599461,
+      "nobs": 1395,
+      "n_tags": 20
+    },
+    {
+      "specification": "post_accepted30",
+      "outcome": "accepted_30d_rate",
+      "coef": -0.01581215122403012,
+      "cluster_se": 0.012541242086546306,
+      "cluster_pval": 0.20737651153340075,
+      "nobs": 1395,
+      "n_tags": 20
+    },
+    {
+      "specification": "external_gap",
+      "outcome": "response_cert_gap",
+      "coef": -0.0003882220050300514,
+      "cluster_se": 0.03698606849772593,
+      "cluster_pval": 0.9916252073080483,
+      "nobs": 1395,
+      "n_tags": 20
+    },
+    {
+      "specification": "external_accepted30",
+      "outcome": "accepted_30d_rate",
+      "coef": -0.027833689882749105,
+      "cluster_se": 0.03723664226270423,
+      "cluster_pval": 0.45477314945873615,
+      "nobs": 1395,
+      "n_tags": 20
+    },
+    {
+      "specification": "external_first1d",
+      "outcome": "first_answer_1d_rate",
+      "coef": -0.026975506412781295,
+      "cluster_se": 0.03790222112350633,
+      "cluster_pval": 0.4766424683238132,
+      "nobs": 1409,
+      "n_tags": 20
+    }
+  ]
+}

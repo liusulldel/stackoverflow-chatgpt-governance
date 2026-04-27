@@ -1,0 +1,15 @@
+metric,value
+total_questions,2322009
+disclosed_ai_questions,9996
+question_title_hits,1244
+question_body_hits,7229
+answer_body_hits,2340
+question_comment_hits,1613
+answer_comment_hits,1365
+any_comment_hits,2869
+non_title_thread_additions,8752
+pre_chatgpt_hits,1001
+post_chatgpt_hits,8995
+pre_ban_hits,1021
+post_ban_hits,8975
+comments_xml_available,1

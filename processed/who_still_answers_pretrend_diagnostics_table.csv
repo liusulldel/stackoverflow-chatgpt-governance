@@ -1,0 +1,5 @@
+outcome,term,coef,se,pval,nobs,weight_col,formula,read
+residual_queue_complexity_index_mean,high_tag:time_index,-0.000278281585874,0.0002516777441087,0.2693761428964082,560,n_questions,residual_queue_complexity_index_mean ~ C(primary_tag) + C(month_id) + high_tag:time_index,no detectable pre-trend
+brand_new_platform_share,high_tag:time_index,0.0010239880379832,0.0001641766510824,9.37840298618741e-10,560,n_new_answerers_profiles,brand_new_platform_share ~ C(primary_tag) + C(month_id) + high_tag:time_index,meaningful pre-trend
+first_answer_1d_rate_closure,high_tag:time_index,0.0013125927541768,0.0001584357557375,1.0554736091262814e-15,560,first_answer_1d_denom_closure,first_answer_1d_rate_closure ~ C(primary_tag) + C(month_id) + high_tag:time_index,meaningful pre-trend
+accepted_vote_30d_rate,high_tag:time_index,0.0002834684509979,9.748601419222957e-05,0.0037988671735989,560,accepted_vote_30d_denom,accepted_vote_30d_rate ~ C(primary_tag) + C(month_id) + high_tag:time_index,meaningful pre-trend

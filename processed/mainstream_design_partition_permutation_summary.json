@@ -1,0 +1,10 @@
+{
+  "anchor_tag": "bash",
+  "n_unique_partitions": 6435,
+  "observed_coef": -0.010354445674073275,
+  "observed_pval": 0.043232490087260135,
+  "coef_percentile_from_bottom": 10.505050505050505,
+  "pval_percentile_from_bottom": 17.7000777000777,
+  "share_negative_coefficients": 0.4666666666666667,
+  "share_coefficients_at_least_as_negative_as_observed": 0.10505050505050505
+}

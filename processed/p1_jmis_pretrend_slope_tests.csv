@@ -1,0 +1,5 @@
+outcome,term,coef,se,pval,nobs,weight_col,formula
+residual_queue_complexity_index_mean,high_tag:time_index,-0.00027828158587402504,0.00025167774410871264,0.2693761428964082,560,n_questions,residual_queue_complexity_index_mean ~ C(primary_tag) + C(month_id) + high_tag:time_index
+brand_new_platform_share,high_tag:time_index,0.0010239880379832188,0.00016417665108249636,9.37840298618741e-10,560,n_new_answerers_profiles,brand_new_platform_share ~ C(primary_tag) + C(month_id) + high_tag:time_index
+first_answer_1d_rate_closure,high_tag:time_index,0.00131259275417684,0.00015843575573758073,1.0554736091262814e-15,560,first_answer_1d_denom_closure,first_answer_1d_rate_closure ~ C(primary_tag) + C(month_id) + high_tag:time_index
+accepted_vote_30d_rate,high_tag:time_index,0.00028346845099794834,9.748601419222957e-05,0.003798867173598952,560,accepted_vote_30d_denom,accepted_vote_30d_rate ~ C(primary_tag) + C(month_id) + high_tag:time_index

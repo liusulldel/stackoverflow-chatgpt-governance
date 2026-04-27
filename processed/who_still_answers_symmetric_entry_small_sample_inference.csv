@@ -1,0 +1,2 @@
+specification,term,coef,cr2_se,cr2_pval,cr2_tstat,cr2_df,wild_cluster_bootstrap_pval,randomization_pval
+novice_entry_share,exposure_post,0.005759913227238719,0.005573853370701154,0.3178000475222988,1.0333808308477552,15.0,0.43358395989974935,0.49899799599198397

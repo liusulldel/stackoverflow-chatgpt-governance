@@ -1,0 +1,4 @@
+tag_family,candidate_tool_count_mapped,source_backed_tool_count_mapped,first_any_available_month,first_full_available_month,first_family_specific_available_month,max_stage_sum,max_stage_max,max_active_tool_count_any,max_active_family_specific_tool_count_any,end_month_active_tool_count_any,end_month_stage_sum,end_month_active_tool_keys_any
+application_framework,11,4,2022-06,2022-06,2024-04,3.3,1.0,4,2,4,3.3,firebase_ai_logic_sdk;github_copilot_ide;google_android_studio_gemini;jetbrains_ai_assistant
+data_scripting,13,4,2022-06,2022-06,2024-04,4.0,1.0,4,2,4,4.0,databricks_ai_assistant;datagrip_ai_schema_context;github_copilot_ide;jetbrains_ai_assistant
+systems_infra,13,5,2022-06,2022-06,2024-11,4.6,1.0,5,3,5,4.6,amazon_q_developer_console_context;docker_ai_agent;github_copilot_ide;jetbrains_ai_assistant;redhat_openshift_lightspeed

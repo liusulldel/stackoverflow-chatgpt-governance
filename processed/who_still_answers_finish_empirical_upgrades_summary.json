@@ -1,0 +1,18 @@
+{
+  "outputs": {
+    "16tag_external_calibration": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_16tag_external_calibration_table.csv",
+    "mechanism_decomposition": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_mechanism_decomposition_table.csv",
+    "certification_conversion_ladder": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\who_still_answers_certification_conversion_ladder.csv",
+    "readout": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\paper\\who_still_answers_finish_empirical_upgrades_readout_2026-04-16.md"
+  },
+  "n_rows": {
+    "16tag_external_calibration": 16,
+    "mechanism_decomposition": 20,
+    "certification_conversion_ladder": 20
+  },
+  "safe_limits": [
+    "JetBrains calibrates substitution premise at cluster level, not exact tag rank.",
+    "Mechanism decomposition separates channels but remains observational.",
+    "Certification ladder is a conversion readout, not mediation."
+  ]
+}

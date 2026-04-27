@@ -1,0 +1,17 @@
+sample,window_days,donut_days,n_questions,n_hits,pre_hits,post_hits
+all_tags,30,0,662,40,10,30
+all_tags,30,3,590,37,7,30
+all_tags,45,0,1029,60,11,49
+all_tags,45,3,957,57,8,49
+all_tags,45,7,865,49,7,42
+all_tags,60,0,1399,89,14,75
+all_tags,60,3,1327,86,11,75
+all_tags,60,7,1235,78,10,68
+high_tags_only,30,0,404,35,8,27
+high_tags_only,30,3,363,32,5,27
+high_tags_only,45,0,625,53,9,44
+high_tags_only,45,3,584,50,6,44
+high_tags_only,45,7,515,42,5,37
+high_tags_only,60,0,860,77,12,65
+high_tags_only,60,3,819,74,9,65
+high_tags_only,60,7,750,66,8,58

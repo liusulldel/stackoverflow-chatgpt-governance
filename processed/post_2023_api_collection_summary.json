@@ -1,0 +1,13 @@
+{
+  "questions_jsonl": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\raw\\api_extension_20250306_20251231\\post_2023_questions.jsonl",
+  "timelines_jsonl": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\raw\\api_extension_20250306_20251231\\post_2023_timelines.jsonl",
+  "questions_parquet": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\post_2023_api_questions.parquet",
+  "question_requests_parquet": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\post_2023_api_question_requests.parquet",
+  "question_events_parquet": "D:\\AI alignment\\projects\\stackoverflow_chatgpt_governance\\processed\\post_2023_api_question_events.parquet",
+  "n_question_request_rows": 399793,
+  "n_unique_questions": 360668,
+  "n_timeline_summaries": 46577,
+  "min_question_created_at": "2023-03-06T00:00:09+00:00",
+  "max_question_created_at": "2025-12-31T23:14:43+00:00",
+  "collected_at": "2026-04-03T04:20:06.572853+00:00"
+}

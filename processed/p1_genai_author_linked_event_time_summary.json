@@ -1,0 +1,7 @@
+{
+  "n_treated_users": 2342,
+  "n_matched_treated": 2341,
+  "n_matched_controls": 1745,
+  "event_time_rows": 19,
+  "matched_did_rows": 6
+}

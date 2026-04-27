@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "n_questions": 2322009,
+    "n_answers": 2750564,
+    "n_accept_votes": 1013245,
+    "n_question_level_rows": 2322009,
+    "n_primary_panel_rows": 1147,
+    "n_fractional_panel_rows": 1152,
+    "min_question_created_at": "2020-01-01T00:01:28.670000+00:00",
+    "max_question_created_at": "2025-12-31T23:14:43.730000+00:00",
+    "observation_cutoff_at": "2025-12-31T23:14:43.730000+00:00",
+    "n_primary_tags": 16
+  },
+  "checks": [
+    {
+      "name": "manifest_has_summary",
+      "status": "pass",
+      "detail": "Manifest includes a non-null summary payload."
+    },
+    {
+      "name": "date_range_starts_in_2020",
+      "status": "pass",
+      "detail": "Question-level min date is 2020-01-01T00:01:28.670000+00:00."
+    },
+    {
+      "name": "date_range_reaches_2025",
+      "status": "pass",
+      "detail": "Question-level max date reaches 2025-12-31T23:14:43.730000+00:00."
+    },
+    {
+      "name": "question_ids_unique",
+      "status": "pass",
+      "detail": "Question-level data have unique question_id rows."
+    },
+    {
+      "name": "primary_panel_unique_tag_month",
+      "status": "pass",
+      "detail": "Primary panel has unique tag-month rows."
+    },
+    {
+      "name": "fractional_panel_unique_tag_month",
+      "status": "pass",
+      "detail": "Fractional panel has unique tag-month rows."
+    },
+    {
+      "name": "tag_set_matches_selected_tags",
+      "status": "pass",
+      "detail": "Observed tag set matches the 16 selected tags."
+    },
+    {
+      "name": "panel_summary_has_observation_cutoff",
+      "status": "pass",
+      "detail": "Panel summary includes observation_cutoff=2025-12-31T23:14:43.730000+00:00."
+    },
+    {
+      "name": "accepted_7d_le_accepted_30d_question_level",
+      "status": "pass",
+      "detail": "Question-level accepted_7d never exceeds accepted_30d."
+    },
+    {
+      "name": "first_answer_1d_le_first_answer_7d_question_level",
+      "status": "pass",
+      "detail": "Question-level first_answer_1d never exceeds first_answer_7d."
+    },
+    {
+      "name": "accepted_7d_le_accepted_30d_primary_panel",
+      "status": "pass",
+      "detail": "Primary panel preserves accepted_7d_rate <= accepted_30d_rate whenever the two rates share the same risk set."
+    },
+    {
+      "name": "first_answer_1d_le_first_answer_7d_primary_panel",
+      "status": "pass",
+      "detail": "Primary panel preserves first_answer_1d_rate <= first_answer_7d_rate whenever the two rates share the same risk set."
+    },
+    {
+      "name": "accepted_7d_le_accepted_30d_fractional_panel",
+      "status": "pass",
+      "detail": "Fractional panel preserves accepted_7d_rate <= accepted_30d_rate whenever the two rates share the same risk set."
+    },
+    {
+      "name": "first_answer_1d_le_first_answer_7d_fractional_panel",
+      "status": "pass",
+      "detail": "Fractional panel preserves first_answer_1d_rate <= first_answer_7d_rate whenever the two rates share the same risk set."
+    },
+    {
+      "name": "primary_panel_has_denominators",
+      "status": "pass",
+      "detail": "Primary panel includes denominator columns for eligibility-aware short-horizon rates."
+    },
+    {
+      "name": "fractional_panel_has_denominators",
+      "status": "pass",
+      "detail": "Fractional panel includes denominator columns for eligibility-aware short-horizon rates."
+    },
+    {
+      "name": "question_level_has_eligibility_flags",
+      "status": "pass",
+      "detail": "Question-level data include eligibility flags for all short-horizon outcomes."
+    },
+    {
+      "name": "eligibility_flags_respect_cutoff",
+      "status": "pass",
+      "detail": "Eligibility flags respect the observation cutoff for all short-horizon outcomes."
+    },
+    {
+      "name": "late_2025_primary_denominators_drop_below_total",
+      "status": "pass",
+      "detail": "Late-window censoring is visible in the primary panel denominators."
+    },
+    {
+      "name": "focal_summary_matches_question_rows",
+      "status": "pass",
+      "detail": "Focal summary n_questions matches parquet row count (2322009)."
+    },
+    {
+      "name": "panel_summary_matches_question_level_rows",
+      "status": "pass",
+      "detail": "Panel summary n_question_level_rows matches parquet row count (2322009)."
+    }
+  ],
+  "n_pass": 21,
+  "n_fail": 0
+}

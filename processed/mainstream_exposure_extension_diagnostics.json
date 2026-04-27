@@ -1,0 +1,37 @@
+{
+  "orientation_correlation_with_routine_share": 0.16657467709816026,
+  "top_positive_terms": [
+    "docker nginx",
+    "use docker",
+    "connect docker",
+    "map string",
+    "firestore collection",
+    "gitlab runner",
+    "server docker",
+    "app docker",
+    "flutterfire",
+    "firebase admin",
+    "compose docker",
+    "docker windows",
+    "serve",
+    "firebase analytics",
+    "stage"
+  ],
+  "top_negative_terms": [
+    "using",
+    "python",
+    "file",
+    "error",
+    "linux",
+    "data",
+    "memory",
+    "function",
+    "value",
+    "bash",
+    "array",
+    "sql",
+    "column",
+    "android",
+    "use"
+  ]
+}

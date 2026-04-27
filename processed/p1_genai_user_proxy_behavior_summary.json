@@ -1,0 +1,42 @@
+{
+  "n_ai_hit_users": 1969,
+  "n_ai_hit_user_months": 141768,
+  "n_ever_answerer_users": 118,
+  "n_answerer_months": 1381,
+  "event_time_window": [
+    -6,
+    6
+  ],
+  "headline_prepost": [
+    {
+      "metric": "answer_count_total",
+      "pre_first_hit_mean": 4.667942583732057,
+      "post_first_hit_mean": 2.5029761904761907,
+      "post_minus_pre": -2.1649663932558667
+    },
+    {
+      "metric": "accepted_current_total",
+      "pre_first_hit_mean": 1.8200956937799042,
+      "post_first_hit_mean": 0.8690476190476191,
+      "post_minus_pre": -0.9510480747322851
+    },
+    {
+      "metric": "answer_exposure_index_wavg",
+      "pre_first_hit_mean": 0.342874755781756,
+      "post_first_hit_mean": 0.38708642339218224,
+      "post_minus_pre": 0.04421166761042622
+    },
+    {
+      "metric": "answer_high_share",
+      "pre_first_hit_mean": 0.2479592908744749,
+      "post_first_hit_mean": 0.16980494849454933,
+      "post_minus_pre": -0.07815434237992558
+    },
+    {
+      "metric": "answer_expert_share",
+      "pre_first_hit_mean": 0.5776802819071752,
+      "post_first_hit_mean": 0.5466999299719888,
+      "post_minus_pre": -0.030980351935186445
+    }
+  ]
+}

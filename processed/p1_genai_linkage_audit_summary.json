@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "internal_tag_month_csv": "who_still_answers_internal_ai_title_trace_tag_month.csv",
+    "external_pageviews_csv": "who_still_answers_external_ai_pageviews.csv"
+  },
+  "outputs": {
+    "monthly_series_csv": "p1_genai_linkage_audit_monthly_series.csv",
+    "r1_r4_results_csv": "p1_genai_linkage_audit_R1_R4_results.csv",
+    "figure_la1_png": "p1_genai_linkage_audit_LA1_trace.png",
+    "readout_md": "p1_genai_linkage_audit_build_readout_2026-04-04.md"
+  },
+  "event_markers": {
+    "chatgpt_release": "2022-11-30",
+    "chatgpt_launch_week": "2022-12-05",
+    "post_start_month": "2022-12"
+  },
+  "n_months_total": 72,
+  "month_range": {
+    "min": "2020-01",
+    "max": "2025-12"
+  },
+  "n_tags_internal_trace": 16,
+  "corr_overall_internal_rate_with_chatgpt_z": 0.7891629751550095,
+  "regression_table_rows": 6
+}
