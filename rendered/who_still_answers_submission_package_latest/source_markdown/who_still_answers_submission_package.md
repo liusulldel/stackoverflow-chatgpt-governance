@@ -32,10 +32,6 @@ The paper should not be sold as three coequal pillars. The active evidence hiera
   [who_still_answers_option_c_manuscript.md](D:/AI alignment/projects/stackoverflow_chatgpt_governance/paper/who_still_answers_option_c_manuscript.md)
 - Online appendix:
   [who_still_answers_online_appendix.md](D:/AI alignment/projects/stackoverflow_chatgpt_governance/paper/who_still_answers_online_appendix.md)
-- Primary cover letter draft:
-  [who_still_answers_cover_letter.md](D:/AI alignment/projects/stackoverflow_chatgpt_governance/paper/who_still_answers_cover_letter.md)
-- Alternative ISR cover letter draft:
-  [who_still_answers_isr_cover_letter.md](D:/AI alignment/projects/stackoverflow_chatgpt_governance/paper/who_still_answers_isr_cover_letter.md)
 - Reviewer memo:
   [who_still_answers_reviewer_memo.md](D:/AI alignment/projects/stackoverflow_chatgpt_governance/paper/who_still_answers_reviewer_memo.md)
 - Reviewer question bank:

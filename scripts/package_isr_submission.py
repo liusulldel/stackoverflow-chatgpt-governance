@@ -36,8 +36,7 @@ MAIN_FILES = [
     ("00_Package_Guide", PAPER_DIR / "isr_final_package.md"),
     ("01_Manuscript", PAPER_DIR / "isr_submission_manuscript.md"),
     ("02_Online_Appendix", PAPER_DIR / "isr_submission_online_appendix.md"),
-    ("03_Cover_Letter", PAPER_DIR / "isr_cover_letter.md"),
-    ("04_Submission_Memo", PAPER_DIR / "isr_submission_package.md"),
+    ("03_Submission_Memo", PAPER_DIR / "isr_submission_package.md"),
 ]
 
 OPTIONAL_SUPPORT_FILES = [

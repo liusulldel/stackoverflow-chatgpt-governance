@@ -15,7 +15,6 @@ SEND_READY_DIR = PROJECT_ROOT / "rendered" / "send_ready"
 DOCS = [
     ("01_Manuscript", PAPER_DIR / "who_still_answers_option_c_manuscript.md", "article"),
     ("02_Online_Appendix", PAPER_DIR / "who_still_answers_online_appendix.md", "article"),
-    ("03_Cover_Letter", PAPER_DIR / "who_still_answers_isr_cover_letter.md", "letter"),
 ]
 
 
@@ -388,7 +387,6 @@ def main() -> None:
     # refresh the easy-to-find folder with the old-money styled PDFs
     shutil.copy2(active_render_dir / "01_Manuscript.pdf", SEND_READY_DIR / "01_Manuscript.pdf")
     shutil.copy2(active_render_dir / "02_Online_Appendix.pdf", SEND_READY_DIR / "supporting materials" / "02_Online_Appendix.pdf")
-    shutil.copy2(active_render_dir / "03_Cover_Letter.pdf", SEND_READY_DIR / "supporting materials" / "03_Cover_Letter.pdf")
     source_dir = SEND_READY_DIR / "source files"
     source_dir.mkdir(parents=True, exist_ok=True)
     for _, md_path, _ in DOCS:

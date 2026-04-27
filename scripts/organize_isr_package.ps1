@@ -9,7 +9,7 @@ $targetRoot = "$projectRoot\isr_submission_package"
 $folders = @(
     "$targetRoot\01_manuscript",
     "$targetRoot\02_appendix",
-    "$targetRoot\03_cover_letter",
+    "$targetRoot\03_project_notes",
     "$targetRoot\04_evidence_control",
     "$targetRoot\05_robustness",
     "$targetRoot\06_red_team",
@@ -36,15 +36,13 @@ Copy-Item "$projectRoot\paper\who_still_answers_after_chatgpt_manuscript.md" "$t
     if (Test-Path $src) { Copy-Item $src "$targetRoot\02_appendix\" }
 }
 
-# === 03_cover_letter: Editor-facing materials ===
+# === 03_project_notes: Package notes ===
 @(
-    "who_still_answers_cover_letter.md",
-    "who_still_answers_isr_cover_letter.md",
     "who_still_answers_editor_positioning_note.md",
     "who_still_answers_submission_package.md"
 ) | ForEach-Object {
     $src = "$projectRoot\paper\$_"
-    if (Test-Path $src) { Copy-Item $src "$targetRoot\03_cover_letter\" }
+    if (Test-Path $src) { Copy-Item $src "$targetRoot\03_project_notes\" }
 }
 
 # === 04_evidence_control: Canonical numbers, claims, bans ===

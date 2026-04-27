@@ -1,6 +1,6 @@
 # Stack Overflow ChatGPT Governance
 
-This repository contains replication materials, aggregated outputs, figures, and manuscript PDFs for the working paper:
+This repository contains replication materials, derived outputs, figures, and manuscript PDFs for the working paper:
 
 > *Staged Public Resolution in the Generative-AI Era: Evidence from Stack Overflow*
 >
@@ -8,7 +8,7 @@ This repository contains replication materials, aggregated outputs, figures, and
 
 The project studies how Stack Overflow activity changed during the period when generative AI tools became widely available. It focuses on whether public answer work changed across stages of resolution: early answers, later answers, acceptance, and related role patterns. The analysis uses Stack Overflow question data from 2020-01-01 through 2025-12-31 across 16 technical domains. It does not directly observe private AI use by individual users.
 
-This is a research repository, not a polished software package. The scripts are intended to document and reproduce the paper's empirical workflow. Some paths may need local adjustment depending on where the raw Stack Exchange dump is stored.
+This is a research repository intended to document and reproduce the paper's empirical workflow. It is not a software package. Some paths may need local adjustment depending on where the raw Stack Exchange dump is stored.
 
 ## Headline Panel Statistics
 
@@ -27,14 +27,14 @@ This is a research repository, not a polished software package. The scripts are 
 |-- LICENSE
 |-- scripts/                      Python and PowerShell build/analysis scripts
 |-- processed/                    Aggregated panels, model outputs, and checks
-|-- figures/                      PNG figures used in the submission materials
+|-- figures/                      PNG figures used in the manuscript materials
 |-- rendered/
 |   `-- who_still_answers_submission_package_latest/
 |       |-- 00_Submission_Package_Index.pdf
 |       |-- 01_Manuscript.pdf
 |       |-- 02_Online_Appendix.pdf
 |       |-- 04_Reviewer_Memo.pdf
-|       |-- supporting review/display materials
+|       |-- supporting review materials
 |       `-- source_markdown/
 `-- isr_submission_package/
     |-- 01_Manuscript.pdf
@@ -71,11 +71,11 @@ The exact run order is partly documented by script names and file dependencies. 
 
 ## Important Caveats
 
-The repository preserves the analysis state used for the submitted materials. It is not a claim that every script is independent, parameterized, or ready to run from a clean machine without path edits.
+The repository preserves the analysis state used for the current manuscript materials. It is not a claim that every script is independent, parameterized, or ready to run from a clean machine without path edits.
 
 The empirical sample reported in the paper covers 2,322,009 focal-tag Stack Overflow questions across these domains: `bash`, `excel`, `javascript`, `numpy`, `pandas`, `python`, `regex`, `sql`, `apache-spark`, `android`, `docker`, `firebase`, `kubernetes`, `linux`, `memory-management`, and `multithreading`.
 
-The paper's interpretation should be read with the manuscript and appendix, not from this README alone. This README is meant to help a reviewer understand what is in the repository and how to inspect or reproduce it.
+The paper's interpretation should be read with the manuscript and appendix, not from this README alone. This README is meant to help a reader understand what is in the repository and how to inspect or reproduce it.
 
 ## Citation
 

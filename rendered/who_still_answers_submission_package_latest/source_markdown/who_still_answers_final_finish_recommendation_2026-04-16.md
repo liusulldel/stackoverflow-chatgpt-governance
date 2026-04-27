@@ -53,7 +53,5 @@ Use the current send-ready folder for first-wave insider read and SSRN preparati
 
 - `<local-output-dir>\01_Manuscript.pdf`
 - `<local-output-dir>\supporting materials\02_Online_Appendix.pdf`
-- `<local-output-dir>\supporting materials\03_Cover_Letter.pdf`
-- `<local-output-dir>\email_to_sunil_wattal.txt`
 
 Do not reopen moderation, noisy disclosure FE, DevGPT expansion, or new second-setting hunts before insider feedback.
