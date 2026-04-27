@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 
@@ -58,9 +58,9 @@ def main() -> None:
     add_box(ax, (0.34, 0.83), 0.32, 0.10, "Private AI outside option", "#e7f0fa")
     add_box(ax, (0.28, 0.65), 0.44, 0.11, "Residual public queue becomes more selective", "#eef5db")
 
-    add_box(ax, (0.05, 0.34), 0.26, 0.18, "Stage 1\nRapid-response coordination\n• first_answer_1d\n• any_answer_7d", "#fdf1d6")
-    add_box(ax, (0.37, 0.34), 0.26, 0.18, "Stage 2\nAnswer endorsement\n• any_positively_scored_answer_7d\n• first_positive_answer_latency", "#fde2e4")
-    add_box(ax, (0.69, 0.34), 0.26, 0.18, "Stage 3\nFormalized closure\n• accepted_cond_any_answer_30d\n• accepted_vote_30d", "#e5ecf6")
+    add_box(ax, (0.05, 0.34), 0.26, 0.18, "Stage 1\nRapid-response coordination\n鈥?first_answer_1d\n鈥?any_answer_7d", "#fdf1d6")
+    add_box(ax, (0.37, 0.34), 0.26, 0.18, "Stage 2\nAnswer endorsement\n鈥?any_positively_scored_answer_7d\n鈥?first_positive_answer_latency", "#fde2e4")
+    add_box(ax, (0.69, 0.34), 0.26, 0.18, "Stage 3\nFormalized closure\n鈥?accepted_cond_any_answer_30d\n鈥?accepted_vote_30d", "#e5ecf6")
 
     arrow(ax, (0.50, 0.83), (0.50, 0.76))
     arrow(ax, (0.50, 0.65), (0.18, 0.52))

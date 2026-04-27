@@ -1,4 +1,4 @@
-# Same-Setting Disclosed-AI Corpus
+﻿# Same-Setting Disclosed-AI Corpus
 
 Date: April 4, 2026
 
@@ -33,8 +33,8 @@ That makes it a stronger base for reviewer-facing timing and direct-observation 
 
 ## Files
 
-- hits parquet: `D:\AI alignment\projects\stackoverflow_chatgpt_governance\processed\who_still_answers_disclosed_ai_question_hits.parquet`
-- hits csv: `D:\AI alignment\projects\stackoverflow_chatgpt_governance\processed\who_still_answers_disclosed_ai_question_hits.csv`
-- counts csv: `D:\AI alignment\projects\stackoverflow_chatgpt_governance\processed\who_still_answers_disclosed_ai_counts.csv`
-- tag-month counts: `D:\AI alignment\projects\stackoverflow_chatgpt_governance\processed\who_still_answers_disclosed_ai_tag_month_counts.csv`
-- summary json: `D:\AI alignment\projects\stackoverflow_chatgpt_governance\processed\who_still_answers_disclosed_ai_summary.json`
+- hits parquet: `<repo-root>\processed\who_still_answers_disclosed_ai_question_hits.parquet`
+- hits csv: `<repo-root>\processed\who_still_answers_disclosed_ai_question_hits.csv`
+- counts csv: `<repo-root>\processed\who_still_answers_disclosed_ai_counts.csv`
+- tag-month counts: `<repo-root>\processed\who_still_answers_disclosed_ai_tag_month_counts.csv`
+- summary json: `<repo-root>\processed\who_still_answers_disclosed_ai_summary.json`

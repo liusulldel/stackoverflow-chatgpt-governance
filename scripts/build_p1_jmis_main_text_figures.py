@@ -1,4 +1,4 @@
-"""
+﻿"""
 Build main-text figure assets for the P1 JMIS special-issue package.
 
 Outputs:

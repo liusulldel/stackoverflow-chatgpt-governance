@@ -1,4 +1,4 @@
-# Rendered Tables: Who Still Answers Option C
+﻿# Rendered Tables: Who Still Answers Option C
 
 Date: April 4, 2026
 

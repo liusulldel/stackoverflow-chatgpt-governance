@@ -1,4 +1,4 @@
-"""
+﻿"""
 Build promoted methods exhibits for the P1 JMIS package.
 
 Outputs are intentionally "submission-surface" oriented:
@@ -24,7 +24,7 @@ import statsmodels.formula.api as smf
 import matplotlib.pyplot as plt
 
 
-ROOT = r"D:\AI alignment\projects\stackoverflow_chatgpt_governance"
+ROOT = str(Path(__file__).resolve().parent.parent)
 PROCESSED = os.path.join(ROOT, "processed")
 PAPER = os.path.join(ROOT, "paper")
 FIGURES = os.path.join(ROOT, "figures")
@@ -300,9 +300,9 @@ def write_md_exhibit_few_cluster(summary: pd.DataFrame, out_path: str) -> None:
     lines = []
     lines.append("# Methods Exhibit: Few-Cluster LODO Sign Stability")
     lines.append("")
-    lines.append("Unit of analysis: `domain-month` (`primary_tag × month_id`). Effective clusters: `16` focal domains.")
+    lines.append("Unit of analysis: `domain-month` (`primary_tag 脳 month_id`). Effective clusters: `16` focal domains.")
     lines.append("")
-    lines.append("This exhibit reports leave-one-domain-out (LODO) sign stability for the headline coefficients used in Tables 2–4.")
+    lines.append("This exhibit reports leave-one-domain-out (LODO) sign stability for the headline coefficients used in Tables 2鈥?.")
     lines.append("")
     lines.append(d.to_markdown(index=False))
     lines.append("")

@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import re
@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(r"D:\AI alignment\projects\stackoverflow_chatgpt_governance")
+ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = ROOT / "processed"
 
 QUESTION_PARQUET = PROCESSED / "stackexchange_20251231_question_level_enriched.parquet"

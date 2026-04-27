@@ -1,4 +1,4 @@
-# Who Still Answers: Final Finish Recommendation
+﻿# Who Still Answers: Final Finish Recommendation
 
 Date: 2026-04-16
 
@@ -51,9 +51,9 @@ These are structural boundaries, not missing polish.
 
 Use the current send-ready folder for first-wave insider read and SSRN preparation:
 
-- `D:\AI alignment\overflow whostill answer\01_Manuscript.pdf`
-- `D:\AI alignment\overflow whostill answer\supporting materials\02_Online_Appendix.pdf`
-- `D:\AI alignment\overflow whostill answer\supporting materials\03_Cover_Letter.pdf`
-- `D:\AI alignment\overflow whostill answer\email_to_sunil_wattal.txt`
+- `<local-output-dir>\01_Manuscript.pdf`
+- `<local-output-dir>\supporting materials\02_Online_Appendix.pdf`
+- `<local-output-dir>\supporting materials\03_Cover_Letter.pdf`
+- `<local-output-dir>\email_to_sunil_wattal.txt`
 
 Do not reopen moderation, noisy disclosure FE, DevGPT expansion, or new second-setting hunts before insider feedback.

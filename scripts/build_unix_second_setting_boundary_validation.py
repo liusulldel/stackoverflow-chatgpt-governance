@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import html
 import json
@@ -16,7 +16,7 @@ from statsmodels.stats.sandwich_covariance import cov_cluster_2groups
 import score_question_level_exposure_index as exposure_model
 
 
-ROOT = Path(r"D:\AI alignment\projects\stackoverflow_chatgpt_governance")
+ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "raw"
 PROCESSED = ROOT / "processed"
 PAPER = ROOT / "paper"

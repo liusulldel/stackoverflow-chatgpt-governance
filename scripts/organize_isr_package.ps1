@@ -1,8 +1,8 @@
-# ISR Submission Package File Organization Script
+﻿# ISR Submission Package File Organization Script
 # Run this from PowerShell to copy (not move) all relevant files into a clean folder structure.
-# Original files are preserved in place — safe for concurrent agent work.
+# Original files are preserved in place 鈥?safe for concurrent agent work.
 
-$projectRoot = "D:\AI alignment\projects\stackoverflow_chatgpt_governance"
+$projectRoot = Split-Path -Parent $PSScriptRoot
 $targetRoot = "$projectRoot\isr_submission_package"
 
 # Create folder structure

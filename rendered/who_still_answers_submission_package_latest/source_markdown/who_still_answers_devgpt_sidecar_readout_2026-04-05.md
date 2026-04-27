@@ -1,4 +1,4 @@
-# Who Still Answers DevGPT Sidecar Readout
+﻿# Who Still Answers DevGPT Sidecar Readout
 
 Date: 2026-04-05
 

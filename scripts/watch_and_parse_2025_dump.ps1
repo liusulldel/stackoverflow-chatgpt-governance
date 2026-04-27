@@ -1,11 +1,11 @@
-param(
+﻿param(
     [int]$PollSeconds = 120
 )
 
 $ErrorActionPreference = "Stop"
 
 $jobName = "stackoverflow_2025q4_dump"
-$baseDir = "D:\AI alignment\projects\stackoverflow_chatgpt_governance"
+$baseDir = Split-Path -Parent $PSScriptRoot
 $rawDir = Join-Path $baseDir "raw\stackexchange_20251231"
 $logPath = Join-Path $rawDir "watch_and_parse_2025_dump.log"
 $statePath = Join-Path $rawDir "watch_and_parse_state.json"

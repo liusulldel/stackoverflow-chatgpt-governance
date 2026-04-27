@@ -1,10 +1,10 @@
-param(
+﻿param(
     [int]$PollSeconds = 120
 )
 
 $ErrorActionPreference = "Stop"
 
-$baseDir = "D:\AI alignment\projects\stackoverflow_chatgpt_governance"
+$baseDir = Split-Path -Parent $PSScriptRoot
 $rawDir = Join-Path $baseDir "raw\stackexchange_20251231"
 $processedDir = Join-Path $baseDir "processed"
 $logPath = Join-Path $rawDir "panel_validation_followup.log"

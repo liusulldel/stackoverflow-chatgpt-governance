@@ -1,4 +1,4 @@
-from mainstream_tag_design import main
+﻿from mainstream_tag_design import main
 
 
 if __name__ == "__main__":

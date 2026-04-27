@@ -1,4 +1,4 @@
-# Reviewer Memo: Option C Anticipated Objections and Prepared Responses
+﻿# Reviewer Memo: Option C Anticipated Objections and Prepared Responses
 
 Date: April 5, 2026
 

@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 
@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(r"D:\AI alignment\projects\stackoverflow_chatgpt_governance")
+ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = ROOT / "processed"
 PAPER = ROOT / "paper"
 
@@ -576,7 +576,7 @@ def write_readout(
     ]
     for _, row in did.iterrows():
         lines.append(
-            f"- `{row['outcome']}` Δ treated `{row['treated_delta']:.3f}`, Δ control `{row['control_delta']:.3f}`, diff-in-diff `{row['diff_in_diff']:.3f}`"
+            f"- `{row['outcome']}` 螖 treated `{row['treated_delta']:.3f}`, 螖 control `{row['control_delta']:.3f}`, diff-in-diff `{row['diff_in_diff']:.3f}`"
         )
     lines += [
         "",

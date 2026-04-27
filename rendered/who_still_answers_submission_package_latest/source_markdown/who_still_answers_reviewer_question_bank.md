@@ -1,4 +1,4 @@
-# Reviewer Question Bank: Option C
+﻿# Reviewer Question Bank: Option C
 
 Project: `Public Answer-Supply Reallocation in the Generative-AI Period: Evidence from Stack Overflow`  
 Date: April 4, 2026

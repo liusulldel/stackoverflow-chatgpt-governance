@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import html
 import json
@@ -17,7 +17,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import Paragraph, Preformatted, SimpleDocTemplate, Spacer
 
 
-PROJECT_ROOT = Path(r"D:\AI alignment\projects\stackoverflow_chatgpt_governance")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PAPER_DIR = PROJECT_ROOT / "paper"
 OUTPUT_ROOT = PROJECT_ROOT / "rendered" / f"who_still_answers_submission_package_{date.today().isoformat()}"
 LATEST_OUTPUT = PROJECT_ROOT / "rendered" / "who_still_answers_submission_package_latest"
@@ -31,7 +31,6 @@ MAIN_RENDER_FILES = [
     ("00_Submission_Package_Index", PAPER_DIR / "who_still_answers_submission_package.md"),
     ("01_Manuscript", PAPER_DIR / "who_still_answers_option_c_manuscript.md"),
     ("02_Online_Appendix", PAPER_DIR / "who_still_answers_online_appendix.md"),
-    ("03_Cover_Letter", PAPER_DIR / "who_still_answers_isr_cover_letter.md"),
     ("04_Reviewer_Memo", PAPER_DIR / "who_still_answers_reviewer_memo.md"),
     ("05_Reviewer_Question_Bank", PAPER_DIR / "who_still_answers_reviewer_question_bank.md"),
     ("06_Strict_ISR_Rescore", PAPER_DIR / "who_still_answers_strict_isr_rescore_round5_after_question_side_and_devgpt_2026-04-05.md"),
@@ -44,7 +43,6 @@ OPTIONAL_RENDER_FILES = [
     ("10_Rendered_Figures", PAPER_DIR / "who_still_answers_rendered_figures_2026-04-04.md"),
     ("11_Disclosed_AI_Corpus", PAPER_DIR / "who_still_answers_disclosed_ai_corpus_2026-04-04.md"),
     ("12_AI_Ban_Strict_Question_Side", PAPER_DIR / "who_still_answers_ai_ban_strict_question_side_2026-04-06.md"),
-    ("13_Coauthor_Strategy", PAPER_DIR / "who_still_answers_coauthor_strategy_2026-04-04.md"),
     ("14_AIDev_Domain_Overlap_Upgrade", PAPER_DIR / "who_still_answers_aidev_domain_overlap_upgrade_2026-04-04.md"),
     ("15_Causal_Mining_Synthesis", PAPER_DIR / "who_still_answers_causal_mining_synthesis_2026-04-06.md"),
     ("16_DevGPT_Sidecar", PAPER_DIR / "who_still_answers_devgpt_sidecar_readout_2026-04-05.md"),

@@ -1,4 +1,4 @@
-# Online Appendix for Private AI, Public Answer Work, and Certification at Stack Overflow
+﻿# Online Appendix for Private AI, Public Answer Work, and Certification at Stack Overflow
 
 Main manuscript:
 - [who_still_answers_option_c_manuscript.md](D:/AI alignment/projects/stackoverflow_chatgpt_governance/paper/who_still_answers_option_c_manuscript.md)

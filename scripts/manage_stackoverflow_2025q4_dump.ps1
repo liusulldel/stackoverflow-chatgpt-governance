@@ -1,11 +1,11 @@
-param(
+﻿param(
     [ValidateSet("start", "status", "resume")]
     [string]$Action = "status"
 )
 
 $ErrorActionPreference = "Stop"
 
-$baseDir = "D:\AI alignment\projects\stackoverflow_chatgpt_governance\raw\stackexchange_20251231"
+$baseDir = Join-Path (Split-Path -Parent $PSScriptRoot) "raw\stackexchange_20251231"
 $url = "https://archive.org/download/stackexchange_20251231/stackexchange_20251231/stackoverflow.com.7z"
 $destination = Join-Path $baseDir "stackoverflow.com.7z"
 $jobName = "stackoverflow_2025q4_dump"

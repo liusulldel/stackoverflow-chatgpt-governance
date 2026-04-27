@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 from dataclasses import dataclass
@@ -211,7 +211,7 @@ def fit_role_wls(panel: pd.DataFrame) -> pd.DataFrame:
 def bootstrap_tag_diff(panel: pd.DataFrame, role_a: str, role_b: str, n_boot: int = 200, seed: int = 7) -> dict[str, float]:
     """
     Few-cluster friendly difference test via tag bootstrap (resample tags with replacement).
-    This is not a full wild-cluster implementation; it’s a pragmatic differential check for the ordered-gradient story.
+    This is not a full wild-cluster implementation; it鈥檚 a pragmatic differential check for the ordered-gradient story.
     """
     rng = np.random.default_rng(seed)
     tags = sorted(panel["primary_tag"].unique().tolist())

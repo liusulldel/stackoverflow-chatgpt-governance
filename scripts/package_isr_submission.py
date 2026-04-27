@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import html
 import shutil
@@ -22,7 +22,7 @@ from reportlab.platypus import (
 )
 
 
-PROJECT_ROOT = Path(r"D:\AI alignment\projects\stackoverflow_chatgpt_governance")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PAPER_DIR = PROJECT_ROOT / "paper" / "staged_public_resolution"
 PROCESSED_DIR = PROJECT_ROOT / "processed"
 DESKTOP = Path.home() / "Desktop"
@@ -262,7 +262,7 @@ def add_markdown_to_story(text: str, story: list, styles, doc_width: float) -> N
                 Paragraph(
                     normalize_inline(stripped[2:].strip()),
                     styles["bullet"],
-                    bulletText="•",
+                    bulletText="-",
                 )
             )
             continue

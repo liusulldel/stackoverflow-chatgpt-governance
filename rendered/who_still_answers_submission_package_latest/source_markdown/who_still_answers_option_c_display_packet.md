@@ -1,4 +1,4 @@
-# Who Still Answers Option C: Anti-Bridge-Heavy Display Packet
+﻿# Who Still Answers Option C: Anti-Bridge-Heavy Display Packet
 
 Project title: `Private AI, Public Answer Work, and Certification at Stack Overflow`  
 Purpose: align the main-text display architecture with the current manuscript spine  

@@ -1,4 +1,4 @@
-"""
+﻿"""
 Build minimal, submission-legible methods exhibits for the P1 JMIS package.
 
 Goal: promote few-cluster and timing discipline into visible artifacts without

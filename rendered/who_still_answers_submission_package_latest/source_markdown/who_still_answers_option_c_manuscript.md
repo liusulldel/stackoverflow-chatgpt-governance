@@ -1,4 +1,4 @@
-# Private AI, Public Answer Work, and Certification at Stack Overflow
+﻿# Private AI, Public Answer Work, and Certification at Stack Overflow
 
 ## Abstract
 

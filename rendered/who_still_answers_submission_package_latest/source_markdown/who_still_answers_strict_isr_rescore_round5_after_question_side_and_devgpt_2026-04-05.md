@@ -1,4 +1,4 @@
-# Who Still Answers: Strict ISR Rescore Round 5 After Question-Side Timing and DevGPT Upgrade
+﻿# Who Still Answers: Strict ISR Rescore Round 5 After Question-Side Timing and DevGPT Upgrade
 
 Date: April 5, 2026
 

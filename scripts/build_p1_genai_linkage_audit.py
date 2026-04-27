@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 from dataclasses import dataclass
@@ -12,7 +12,7 @@ from scipy import stats
 from statsmodels.stats.sandwich_covariance import cov_cluster_2groups
 
 
-ROOT = Path(r"D:\AI alignment\projects\stackoverflow_chatgpt_governance")
+ROOT = Path(__file__).resolve().parent.parent
 PROCESSED = ROOT / "processed"
 FIGURES = ROOT / "figures"
 PAPER = ROOT / "paper"

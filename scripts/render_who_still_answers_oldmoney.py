@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import re
 import shutil
@@ -7,10 +7,10 @@ from datetime import datetime
 from pathlib import Path
 
 
-PROJECT_ROOT = Path(r"D:\AI alignment\projects\stackoverflow_chatgpt_governance")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PAPER_DIR = PROJECT_ROOT / "paper"
 RENDER_DIR = PROJECT_ROOT / "rendered" / "who_still_answers_oldmoney_2026-04-05"
-SEND_READY_DIR = Path(r"D:\AI alignment\overflow whostill answer")
+SEND_READY_DIR = PROJECT_ROOT / "rendered" / "send_ready"
 
 DOCS = [
     ("01_Manuscript", PAPER_DIR / "who_still_answers_option_c_manuscript.md", "article"),

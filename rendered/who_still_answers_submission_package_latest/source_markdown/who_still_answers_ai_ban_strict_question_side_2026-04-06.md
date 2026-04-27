@@ -1,4 +1,4 @@
-# Strict Question-Side AI-Ban Upgrade
+﻿# Strict Question-Side AI-Ban Upgrade
 
 Date: April 6, 2026
 
