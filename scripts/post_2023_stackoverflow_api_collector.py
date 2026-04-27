@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import math
+import os
 import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -31,8 +32,7 @@ QUESTION_SUMMARY_JSON = PROCESSED_DIR / "post_2023_api_collection_summary.json"
 
 API_BASE = "https://api.stackexchange.com/2.3"
 SITE = "stackoverflow"
-# Public documentation key shown on Stack Exchange API docs pages.
-API_KEY = "U4DMV*8nvpm3EOpvf69Rxw(("
+API_KEY = os.environ.get("STACKEXCHANGE_API_KEY")
 PAGESIZE = 100
 DEFAULT_TIMELINE_BATCH_SIZE = 100
 
@@ -165,7 +165,17 @@ def append_jsonl(path: Path, rows: Iterable[dict]) -> int:
     return count
 
 
+def stackexchange_params(params: dict) -> dict:
+    clean_params = dict(params)
+    if API_KEY:
+        clean_params["key"] = API_KEY
+    else:
+        clean_params.pop("key", None)
+    return clean_params
+
+
 def request_json(endpoint: str, params: dict, session: requests.Session, max_attempts: int = 6) -> dict:
+    params = stackexchange_params(params)
     for attempt in range(1, max_attempts + 1):
         response = session.get(endpoint, params=params, timeout=120)
         if response.status_code in {502, 503, 504, 520, 521, 522, 524}:
@@ -250,7 +260,6 @@ def fetch_questions(session: requests.Session, windows: list[TimeWindow], max_wi
                     f"{API_BASE}/questions",
                     {
                         "site": SITE,
-                        "key": API_KEY,
                         "tagged": window.tag,
                         "sort": "creation",
                         "order": "asc",
@@ -320,7 +329,6 @@ def fetch_single_timeline_batch(
                 f"{API_BASE}/questions/{ids_path}/timeline",
                 {
                     "site": SITE,
-                    "key": API_KEY,
                     "pagesize": PAGESIZE,
                     "page": page,
                 },
@@ -476,7 +484,7 @@ def write_manifest(summary: dict, args: argparse.Namespace) -> None:
     manifest = {
         "api_base": API_BASE,
         "site": SITE,
-        "api_key_source": "public documentation key shown on Stack Exchange API docs",
+        "api_key_source": "STACKEXCHANGE_API_KEY environment variable if set; omitted otherwise",
         "start_at": START_AT.isoformat(),
         "end_exclusive": END_EXCLUSIVE.isoformat(),
         "window_days": WINDOW_DAYS,

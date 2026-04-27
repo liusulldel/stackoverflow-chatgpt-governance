@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import re
 import subprocess
 import sys
@@ -23,7 +24,7 @@ TIMELINE_LOG_CSV = RAW_DIR / "post_2023_timeline_page_log.csv"
 COLLECTOR_SCRIPT = BASE_DIR / "scripts" / "post_2023_stackoverflow_api_collector.py"
 
 API_URL = "https://api.stackexchange.com/2.3/info"
-API_KEY = "U4DMV*8nvpm3EOpvf69Rxw(("
+API_KEY = os.environ.get("STACKEXCHANGE_API_KEY")
 SITE = "stackoverflow"
 
 
@@ -61,7 +62,10 @@ def load_remaining_accepted() -> int:
 
 
 def get_quota_status() -> tuple[bool, str]:
-    response = requests.get(API_URL, params={"site": SITE, "key": API_KEY}, timeout=120)
+    params = {"site": SITE}
+    if API_KEY:
+        params["key"] = API_KEY
+    response = requests.get(API_URL, params=params, timeout=120)
     payload = response.json()
     if response.status_code == 200 and "error_id" not in payload:
         quota_remaining = payload.get("quota_remaining")
