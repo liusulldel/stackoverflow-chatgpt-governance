@@ -1,0 +1,12 @@
+This repository contains research code, manuscript text, figures, and derived
+outputs for a working paper on Stack Overflow.
+
+Some tables, figures, and processed files are derived from Stack Exchange data.
+The underlying Stack Exchange content is distributed by Stack Exchange and the
+Internet Archive under Stack Exchange's Creative Commons terms. Reuse of those
+derived artifacts may require Stack Exchange attribution and compliance with
+the source data license.
+
+The MIT license in this repository applies to the author's original code and
+text. It does not override third-party rights in Stack Exchange source data or
+close derivatives of that data.

@@ -1,96 +1,72 @@
-# Staged Public Resolution in the Generative-AI Era: Evidence from Stack Overflow
+# Stack Overflow ChatGPT Governance
 
-Replication code, processed tag-month panels, figures, and the manuscript / appendix / cover-letter PDF bundle for:
+This repository contains replication materials, aggregated outputs, figures, and manuscript PDFs for the working paper:
 
 > *Staged Public Resolution in the Generative-AI Era: Evidence from Stack Overflow*
-> (working title; an alternate, longer title in the manuscript file is *Private AI, Public Answer Work, and Certification at Stack Overflow*).
+>
+> Some manuscript files use the longer title *Private AI, Public Answer Work, and Certification at Stack Overflow*.
 
-## Abstract
+The project studies how Stack Overflow activity changed during the period when generative AI tools became widely available. It focuses on whether public answer work changed across stages of resolution: early answers, later answers, acceptance, and related role patterns. The analysis uses Stack Overflow question data from 2020-01-01 through 2025-12-31 across 16 technical domains. It does not directly observe private AI use by individual users.
 
-Private generative AI creates a new outside option for technical problem solving. Its effects on public knowledge platforms appear less in raw activity counts than in *which* questions still reach the public archive, *who* performs visible answer work inside the residual queue, and *how* that work becomes certified public resolution. Using the official Stack Overflow `2025Q4` dump (`N = 2,322,009` focal-tag questions across 16 technical domains, 2020-01-01 through 2025-12-31), the design contrasts higher- vs. lower-substitutability domains. The headline result is a **staged-resolution split**: rapid public response weakens, while late acceptance does not deteriorate in the same direction. Newer entrants become more visible in early-answer and endorsement roles than in accepted-answer certification, and tag-months with larger early-vs.-accepted role gaps display weaker downstream certification. The paper reframes platform deterioration not as a uniform traffic collapse but as a *staged* unbundling of public resolution.
+This is a research repository, not a polished software package. The scripts are intended to document and reproduce the paper's empirical workflow. Some paths may need local adjustment depending on where the raw Stack Exchange dump is stored.
 
-## Headline Results (canonical 3-rung ladder)
+## Main Contents
 
-| Rung | Outcome | Coefficient | Clustered p | Wild-cluster p |
-|---|---|---:|---:|---:|
-| **1. Rapid response weakens** | `first_answer_1d` | **−3.25 pp** | 0.0019 | 0.0451 |
-| **2. Stage contrast** | `any_answer_7d` | **−2.67 pp** | — | — |
-| **3. Late acceptance does not move with response** | `accepted_vote_30d` | **+0.91 pp** | 0.0016 | 0.0501 |
-
-Sample: `2,322,009` focal-tag questions, `16` technical domains (`bash`, `excel`, `javascript`, `numpy`, `pandas`, `python`, `regex`, `sql`, `apache-spark`, `android`, `docker`, `firebase`, `kubernetes`, `linux`, `memory-management`, `multithreading`), `2020-01-01` through `2025-12-31`. Window-trajectory persistence: the first-answer-1d effect is `−2.04 pp` through `2023-02`, `−2.71 pp` through `2023-12`, and `−3.25 pp` over the full 2025 window — the slowdown emerges early and persists.
-
-## Repository Layout
-
-```
+```text
 .
-├── README.md
-├── LICENSE                       (MIT)
-├── scripts/                      87 build / analysis scripts (Python + PowerShell)
-├── processed/                    Tag-month panels, model results, validation outputs
-│                                  (CSV / JSON; question-level dumps excluded — see below)
-├── figures/                      43 PNG figures from the submission package
-├── rendered/
-│   └── who_still_answers_submission_package_latest/
-│                                 18 rendered PDFs + source markdown for the
-│                                 full multi-agent submission bundle
-└── isr_submission_package/
-    ├── 01_Manuscript.pdf
-    ├── 02_Online_Appendix.pdf
-    └── 03_Cover_Letter.pdf
+|-- README.md
+|-- LICENSE
+|-- scripts/                      Python and PowerShell build/analysis scripts
+|-- processed/                    Aggregated panels, model outputs, and checks
+|-- figures/                      PNG figures used in the submission materials
+|-- rendered/
+|   `-- who_still_answers_submission_package_latest/
+|       |-- 00_Submission_Package_Index.pdf
+|       |-- 01_Manuscript.pdf
+|       |-- 02_Online_Appendix.pdf
+|       |-- 04_Reviewer_Memo.pdf
+|       |-- supporting review/display materials
+|       `-- source_markdown/
+`-- isr_submission_package/
+    |-- 01_Manuscript.pdf
+    `-- 02_Online_Appendix.pdf
 ```
 
-## Data Availability
+## Data
 
-The empirical pipeline starts from the **official Stack Exchange data dump**, which is published under the Creative Commons CC BY-SA license at <https://archive.org/details/stackexchange>. The relevant snapshots for this paper are the periodic `stackexchange_2025-12-31` (and earlier) dumps containing `Posts.xml`, `Users.xml`, `Comments.xml`, `Votes.xml`, `Tags.xml`, and `PostHistory.xml` for `stackoverflow.com` and the smaller second-setting sites used for boundary checks (`unix.stackexchange.com`, `dba.stackexchange.com`, `superuser.com`).
+The pipeline starts from the official Stack Exchange data dump:
 
-**This repository does not redistribute the raw Stack Exchange archives.** To replicate the pipeline:
+<https://archive.org/details/stackexchange>
 
-1. Download the relevant dump from `archive.org/details/stackexchange`.
-2. Place the extracted parquet/XML files under a local `raw/` directory (see `scripts/build_stackoverflow_2025_dump_extension.py` and similar build scripts for expected paths).
-3. Run the build scripts in `scripts/` in roughly the order suggested by their filenames (`build_stackoverflow_2025_dump_extension.py` → `build_question_level_exposure_index_api.py` → role-mechanism / closure-ladder builders → `build_extended_sample_results.py` / `build_harmonized_integration_table.py`).
-4. Tag-month aggregated outputs in `processed/` should reproduce within numerical tolerance.
+This repository does not include the raw Stack Exchange archives. The raw dump is large, is distributed by Stack Exchange through Archive.org, and remains under the Stack Exchange Creative Commons license.
 
-Per-question and per-user panels are intentionally **excluded** from this repository because (a) they are direct derivatives of CC BY-SA Stack Exchange content and the canonical redistribution venue is `archive.org`, and (b) several files exceed GitHub's per-file and per-repo size limits.
+The `processed/` directory contains outputs derived from the raw dump, including tag-month panels, coefficient tables, validation summaries, placebo checks, permutation tests, and event-study aggregates. A small number of row-level audit or matched-pair files may also appear where they are needed to document a table. Treat all Stack Exchange derived files as source-data derivatives rather than standalone MIT data.
 
-## What is in `processed/`
+## Reproducing the Pipeline
 
-Tag-month panels, model coefficient tables, validation summaries, placebo tests, permutation tests, and event-study aggregates — all of which are computed *from* the raw Stack Exchange dump but contain only aggregated, non-reidentifying data. Examples:
+1. Download the relevant Stack Exchange dump from Archive.org.
+2. Extract the Stack Overflow files, including `Posts.xml`, `Users.xml`, `Comments.xml`, `Votes.xml`, `Tags.xml`, and `PostHistory.xml`.
+3. Place the extracted XML or parquet files under a local `raw/` directory.
+4. Check the expected paths in the build scripts, especially `scripts/build_stackoverflow_2025_dump_extension.py`.
+5. Run the scripts in roughly this order:
 
-- `closure_ladder_model_results.csv`, `closure_ladder_results.json`
-- `extended_sample_model_results.csv`, `extended_sample_wild_cluster_bootstrap.csv`
-- `harmonized_integration_model_results.csv`, `harmonized_integration_results.json`
-- `large_design_paper_stats.json`, `large_design_permutation_tests.csv`, `large_design_placebo_break_tests.csv`
-- `event_study_questions.csv`, `event_study_views.csv`
-- `who_still_answers_*.csv` and `*.json` — role-mechanism, durability, certification-bridge results
-
-## What is in `rendered/who_still_answers_submission_package_latest/`
-
-The full multi-PDF submission bundle plus its underlying source markdown:
-
-```
-00_Submission_Package_Index.pdf
-01_Manuscript.pdf
-02_Online_Appendix.pdf
-03_Cover_Letter.pdf
-04_Reviewer_Memo.pdf
-05_Reviewer_Question_Bank.pdf
-06_Strict_ISR_Rescore.pdf
-07_Multi_Agent_Synthesis.pdf
-08_Display_Packet.pdf
-09_Rendered_Tables.pdf
-10_Rendered_Figures.pdf
-11_Disclosed_AI_Corpus.pdf
-12_AI_Ban_Strict_Question_Side.pdf
-13_Coauthor_Strategy.pdf
-14_AIDev_Domain_Overlap_Upgrade.pdf
-15_Causal_Mining_Synthesis.pdf
-16_DevGPT_Sidecar.pdf
-17_Finish_Empirical_Upgrades.pdf
-18_Final_Finish_Recommendation.pdf
-source_markdown/                  raw markdown for all of the above
+```text
+scripts/build_stackoverflow_2025_dump_extension.py
+scripts/build_question_level_exposure_index_api.py
+role-mechanism and closure-ladder builders
+scripts/build_extended_sample_results.py
+scripts/build_harmonized_integration_table.py
 ```
 
-The compact 3-PDF `isr_submission_package/` directory contains only the manuscript, appendix, and cover letter for readers who only want the journal-bound version.
+The exact run order is partly documented by script names and file dependencies. Outputs in `processed/` should reproduce within normal numerical tolerance when the same raw dump and local configuration are used.
+
+## Important Caveats
+
+The repository preserves the analysis state used for the submitted materials. It is not a claim that every script is independent, parameterized, or ready to run from a clean machine without path edits.
+
+The empirical sample reported in the paper covers 2,322,009 focal-tag Stack Overflow questions across these domains: `bash`, `excel`, `javascript`, `numpy`, `pandas`, `python`, `regex`, `sql`, `apache-spark`, `android`, `docker`, `firebase`, `kubernetes`, `linux`, `memory-management`, and `multithreading`.
+
+The paper's interpretation should be read with the manuscript and appendix, not from this README alone. This README is meant to help a reviewer understand what is in the repository and how to inspect or reproduce it.
 
 ## Citation
 
@@ -105,4 +81,6 @@ The compact 3-PDF `isr_submission_package/` directory contains only the manuscri
 
 ## License
 
-Code, scripts, and processed outputs in this repository are released under the MIT License (see `LICENSE`). The underlying Stack Exchange dump remains under **CC BY-SA 4.0** at the source; any derivative panels you reconstruct from it inherit those terms.
+Code and original manuscript text in this repository are released under the MIT License. See `LICENSE`.
+
+The underlying Stack Exchange data remains under the Stack Exchange Creative Commons license at the source. Reconstructed tables, panels, excerpts, and figures derived from Stack Exchange content may inherit those terms and should be reused with Stack Exchange attribution.
