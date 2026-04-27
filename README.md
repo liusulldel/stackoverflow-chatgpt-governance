@@ -10,6 +10,15 @@ The project studies how Stack Overflow activity changed during the period when g
 
 This is a research repository, not a polished software package. The scripts are intended to document and reproduce the paper's empirical workflow. Some paths may need local adjustment depending on where the raw Stack Exchange dump is stored.
 
+## Headline Panel Statistics
+
+- **N = 2,322,009** focal-tag Stack Overflow questions (extended sample, full panel)
+- **N = 2,035,885** focal-tag Stack Overflow questions (harmonized integration cut)
+- 16 technical domains: `bash`, `excel`, `javascript`, `numpy`, `pandas`, `python`, `regex`, `sql`, `apache-spark`, `android`, `docker`, `firebase`, `kubernetes`, `linux`, `memory-management`, `multithreading`
+- Time window: 2020-01-01 through 2025-12-31
+- Treatment reference: ChatGPT public release, 2022-11-30
+- Numbers reproduce in `processed/extended_sample_results.json` and `processed/harmonized_integration_results.json` under the key `n_question_level_rows`
+
 ## Main Contents
 
 ```text
